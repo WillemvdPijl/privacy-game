@@ -54,7 +54,7 @@
             <string>{
     if(global.money &gt;= global.header_price){
         global.money-=global.header_price;
-  }
+    }
 }
 </string>
           </argument>

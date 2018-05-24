@@ -26,8 +26,20 @@
           <argument>
             <kind>1</kind>
             <string>{
-    if(global.money &gt;= global.header_price){
-        global.money-=global.header_price;
+    if(global.auto_users = 0){
+        if(global.money &gt;= global.header_price){
+            global.money-=global.header_price;
+            global.auto_users = 1;
+            global.header_price*=2;
+            global.auto_users_amount = 10;
+        }
+    }else
+    {
+        if(global.money &gt;= global.header_price){
+            global.money-=global.header_price;
+            global.header_price*=2;
+            global.auto_users_amount*=5;
+        }
     }
 }
 </string>
