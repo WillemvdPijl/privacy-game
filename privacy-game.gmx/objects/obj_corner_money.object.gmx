@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>0</depth>
+  <depth>-100</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -26,11 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    texture_set_interpolation(false);
-    draw_text_transformed(1000,10, "Money: " + string(global.money), 2, 2, 0);
-    draw_text_transformed_colour(1005,10, "Money: " + string(global.money), 2, 2, 0, c_black, c_black, c_black, c_black, 0);
-    draw_text_transformed_colour(1000,15, "Money: " + string(global.money), 2, 2, 0, c_black, c_black, c_black, c_black, 0);
-    draw_text_transformed_colour(1000,10, "Money: " + string(global.money), 2, 2, 0, c_white, c_white, c_white, c_white, 0);
+    draw_text_transformed(1000,10, "Money: " + string(global.money) + global.moneycount, 2, 2, 0);
 }
 </string>
           </argument>

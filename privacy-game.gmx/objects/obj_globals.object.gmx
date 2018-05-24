@@ -26,9 +26,78 @@
           <argument>
             <kind>1</kind>
             <string>{
-    global.money = 500;
+    global.money = 2500000000000;
     global.users = 0;
+    global.moneycount = "";
+    global.usercount = "";
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>{
+    //Money
+    if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "") {
+        global.money = global.money / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.moneycount = "K";
+    }
+    if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "K") {
+        global.money = global.money / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.moneycount = "M";
+    }
+    if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "M") {
+        global.money = global.money / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.moneycount = "B";
+    }
+    if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "B") {
+        global.money = global.money / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.moneycount = "T";
+    }
     
+    
+    //Users
+    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "") {
+        global.users = global.users / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.moneycount = "K";
+    }
+    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "K") {
+        global.users = global.users / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.moneycount = "M";
+    }   
+    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "M") {
+        global.users = global.users / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.moneycount = "B";
+    }   
+    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "B") {
+        global.users = global.users / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.moneycount = "T";
+    }
 }
 </string>
           </argument>
