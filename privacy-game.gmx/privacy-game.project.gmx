@@ -5,16 +5,23 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_hitbox</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_globals</object>
     <object>objects\obj_corner_money</object>
     <object>objects\pbj_corner_users</object>
+    <object>objects\obj_shop1</object>
+    <object>objects\obj_shop2</object>
+    <object>objects\obj_back</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
+    <room>rooms\rm_shop1</room>
+    <room>rooms\rm_shop2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
