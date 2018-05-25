@@ -31,7 +31,7 @@
             global.money-=global.header_price;
             global.auto_users = 1;
             global.header_price*=2;
-            global.auto_users_amount = 10;
+            global.auto_users_amount = 1;
         }
     }else
     {

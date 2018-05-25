@@ -52,7 +52,7 @@
             <string>{
     if(alarm[0] &lt;= 0 &amp;&amp; global.auto_users == 1){
         global.users+=global.auto_users_amount;
-        alarm[0] = 5;
+        alarm[0] = 15;
     }
 }
 </string>
