@@ -28,8 +28,10 @@
             <string>{
     global.money = 500;
     global.users = 0;
+    global.header_price = 300;
     global.moneycount = "";
     global.usercount = "";
+    global.headercount = "";
     
     global.auto_users = 0;
     global.auto_users_amount = 0;
@@ -60,44 +62,56 @@
     //Money
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "") {
         global.money = global.money / 1000;
+        global.header_price = global.header_price / 1000;
         //25:00 in part 1 van oreo clicker
         global.moneycount = "K";
+        global.headercount = "K";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "K") {
         global.money = global.money / 1000;
+        global.header_price = global.header_price / 1000;
         //25:00 in part 1 van oreo clicker
         global.moneycount = "M";
+        global.headercount = "M";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "M") {
         global.money = global.money / 1000;
+        global.header_price = global.header_price / 1000;
         //25:00 in part 1 van oreo clicker
         global.moneycount = "B";
+        global.headercount = "B";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "B") {
         global.money = global.money / 1000;
+        global.header_price = global.header_price / 1000;
         //25:00 in part 1 van oreo clicker
         global.moneycount = "T";
+        global.headercount = "T";
     }
     
     
     //Users
     if(global.users &gt;= 1000 &amp;&amp; global.usercount == "") {
         global.users = global.users / 1000;
+        global.auto_users_amount = global.auto_users_amount / 1000;
         //25:00 in part 1 van oreo clicker
         global.usercount = "K";
     }
     if(global.users &gt;= 1000 &amp;&amp; global.usercount == "K") {
         global.users = global.users / 1000;
+        global.auto_users_amount = global.auto_users_amount / 1000;
         //25:00 in part 1 van oreo clicker
         global.usercount = "M";
     }   
     if(global.users &gt;= 1000 &amp;&amp; global.usercount == "M") {
         global.users = global.users / 1000;
+        global.auto_users_amount = global.auto_users_amount / 1000;
         //25:00 in part 1 van oreo clicker
         global.usercount = "B";
     }   
     if(global.users &gt;= 1000 &amp;&amp; global.usercount == "B") {
         global.users = global.users / 1000;
+        global.auto_users_amount = global.auto_users_amount / 1000;
         //25:00 in part 1 van oreo clicker
         global.usercount = "T";
     }

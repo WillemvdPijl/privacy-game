@@ -52,6 +52,9 @@
             <string>{
     if(alarm[0] &lt;= 0 &amp;&amp; global.auto_users == 1){
         global.users+=global.auto_users_amount;
+/* needs to be here until we can sell users */ 
+        //global.money+=10;
+/* ---------------------------------------- */
         alarm[0] = 15;
     }
 }

@@ -26,8 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>{
-    global.header_price = 300;
-    global.header_amount = 1;
+    //Keep this for now
+    //global.header_amount = 1;
 }
 </string>
           </argument>
