@@ -32,6 +32,7 @@
             global.auto_users = 1;
             global.header_price*=2;
             global.auto_users_amount = 1;
+            global.header_lvl += 1;
         }
     }else
     {
@@ -39,6 +40,7 @@
             global.money-=global.header_price;
             global.header_price*=2;
             global.auto_users_amount*=5;
+            global.header_lvl += 1;
         }
     }
 }
@@ -65,7 +67,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(450,230, "Header: " + string(global.header_price) + string(global.headercount), 2, 2, 0);
+    draw_text_transformed(450,230, "Header lvl: " + string(global.header_lvl) + " - Upgrade: " + string(global.header_price) + string(global.headercount), 2, 2, 0);
 }
 </string>
           </argument>

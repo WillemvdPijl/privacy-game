@@ -31,7 +31,9 @@
     global.header_price = 300;
     global.moneycount = "";
     global.usercount = "";
+    
     global.headercount = "";
+    global.header_lvl = 1;
     
     global.auto_users = 0;
     global.auto_users_amount = 0;
