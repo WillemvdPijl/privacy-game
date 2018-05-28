@@ -28,12 +28,16 @@
             <string>{
     global.money = 500;
     global.users = 0;
-    global.header_price = 300;
     global.moneycount = "";
     global.usercount = "";
     
+    global.header_price = 300;
     global.headercount = "";
     global.header_lvl = 1;
+    
+    global.gallery_price = 600;
+    global.gallerycount = "";
+    global.gallery_lvl = 1;
     
     global.auto_users = 0;
     global.auto_users_amount = 0;
@@ -68,6 +72,7 @@
         //25:00 in part 1 van oreo clicker
         global.moneycount = "K";
         global.headercount = "K";
+        global.gallerycount = "K";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "K") {
         global.money = global.money / 1000;
@@ -75,6 +80,7 @@
         //25:00 in part 1 van oreo clicker
         global.moneycount = "M";
         global.headercount = "M";
+        global.gallerycount = "M";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "M") {
         global.money = global.money / 1000;
@@ -82,6 +88,7 @@
         //25:00 in part 1 van oreo clicker
         global.moneycount = "B";
         global.headercount = "B";
+        global.gallerycount = "B";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "B") {
         global.money = global.money / 1000;
@@ -89,6 +96,7 @@
         //25:00 in part 1 van oreo clicker
         global.moneycount = "T";
         global.headercount = "T";
+        global.gallerycount = "T";
     }
     
     

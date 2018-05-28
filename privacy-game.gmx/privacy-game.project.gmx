@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_hitbox</sprite>
     <sprite>sprites\spr_shopheader</sprite>
+    <sprite>sprites\gallery</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -19,7 +20,9 @@
     <object>objects\obj_shop2</object>
     <object>objects\obj_back</object>
     <object>objects\obj_shopheader</object>
+    <object>objects\obj_shopgallery</object>
     <object>objects\obj_header_price</object>
+    <object>objects\obj_gallery_price</object>
     <object>objects\obj_auto_users</object>
   </objects>
   <rooms name="rooms">
