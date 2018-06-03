@@ -67,7 +67,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(450,250, "Gallery lvl: " + string(global.gallery_lvl) + " - Upgrade: " + string(global.gallery_price) + string(global.gallerycount), 2, 2, 0);
+    draw_text_transformed(450,270, "Gallery lvl: " + string(global.gallery_lvl) + " - Upgrade: " + string(global.gallery_price) + string(global.gallerycount), 2, 2, 0);
 }
 </string>
           </argument>

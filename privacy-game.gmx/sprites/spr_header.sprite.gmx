@@ -20,6 +20,6 @@
   <width>160</width>
   <height>128</height>
   <frames>
-    <frame index="0">images\spr_shopheader_0.png</frame>
+    <frame index="0">images\spr_header_0.png</frame>
   </frames>
 </sprite>

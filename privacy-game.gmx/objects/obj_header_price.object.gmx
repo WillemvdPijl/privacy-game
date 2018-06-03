@@ -67,7 +67,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(450,120, "Banners lvl: " + string(global.header_lvl) + " - Upgrade: " + string(global.header_price) + string(global.headercount), 2, 2, 0);
+    draw_text_transformed(450,140, "Banners lvl: " + string(global.header_lvl) + " - Upgrade: " + string(global.header_price) + string(global.headercount), 2, 2, 0);
 }
 </string>
           </argument>

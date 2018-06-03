@@ -20,6 +20,6 @@
   <width>512</width>
   <height>512</height>
   <frames>
-    <frame index="0">images\gallery_0.png</frame>
+    <frame index="0">images\spr_gallery_0.png</frame>
   </frames>
 </sprite>

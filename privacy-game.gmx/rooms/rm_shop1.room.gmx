@@ -55,14 +55,17 @@
     <instance objName="obj_corner_money" x="288" y="160" name="inst_E2347DFA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="pbj_corner_users" x="448" y="256" name="inst_FCD610B6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shopheader" x="352" y="160" name="inst_49793E7B" locked="0" code="" scaleX="0.800000011920929" scaleY="0.800000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_header_price" x="448" y="128" name="inst_5711F2C3" locked="0" code="" scaleX="2.57286429405212" scaleY="1.27999997138977" colour="4294967295" rotation="0"/>
+    <instance objName="obj_header_price" x="288" y="128" name="inst_5711F2C3" locked="0" code="" scaleX="3.35999989509583" scaleY="1.27999997138977" colour="4294967295" rotation="0"/>
     <instance objName="obj_globals" x="192" y="192" name="inst_31C6366E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_globals" x="512" y="192" name="inst_E9CD388F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_auto_users" x="640" y="448" name="inst_E99D201A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_globals" x="704" y="288" name="inst_DD937C3B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shopgallery" x="352" y="288" name="inst_4F4968B5" locked="0" code="" scaleX="0.1796875" scaleY="0.171875" colour="4294967295" rotation="0"/>
-    <instance objName="obj_gallery_price" x="448" y="256" name="inst_45E77D9D" locked="0" code="" scaleX="2.55999994277954" scaleY="1.27999997138977" colour="4294967295" rotation="0"/>
+    <instance objName="obj_gallery_price" x="288" y="256" name="inst_45E77D9D" locked="0" code="" scaleX="3.37688446044922" scaleY="1.27999997138977" colour="4294967295" rotation="0"/>
     <instance objName="obj_globals" x="448" y="416" name="inst_E6EF52A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shopgeo" x="352" y="544" name="inst_3B0C827B" locked="0" code="" scaleX="0.1875" scaleY="0.1875" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shopvideo" x="352" y="416" name="inst_5EC5C1C3" locked="0" code="" scaleX="0.0662499964237213" scaleY="0.0737499967217445" colour="4294967295" rotation="0"/>
+    <instance objName="obj_shopstories" x="352" y="704" name="inst_1F7787D8" locked="0" code="" scaleX="0.25" scaleY="0.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
