@@ -74,7 +74,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(20,10, "Buy Features ", 2, 2, 0);
+    draw_text_transformed(20,25, "Buy Features ", 2, 2, 0);
 }
 </string>
           </argument>

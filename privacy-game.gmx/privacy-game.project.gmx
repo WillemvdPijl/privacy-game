@@ -17,7 +17,11 @@
       <sprite>sprites\sprBureau</sprite>
     </sprites>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bgr_shop1</background>
+    <background>background\bgr_shop2</background>
+    <background>background\bgr_room1</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <objects name="Employee">
