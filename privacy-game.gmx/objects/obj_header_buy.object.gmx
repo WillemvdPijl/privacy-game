@@ -27,20 +27,20 @@
             <kind>1</kind>
             <string>{
     if(global.auto_users = 0){
-        if(global.money &gt;= global.gallery_price){
-            global.money-=global.gallery_price;
+        if(global.money &gt;= global.header_price){
+            global.money-=global.header_price;
             global.auto_users = 1;
-            global.gallery_price*=2;
-            global.auto_users_amount = 2;
-            global.gallery_lvl += 1;
+            global.header_price*=2;
+            global.auto_users_amount = 1;
+            global.header_lvl += 1;
         }
     }else
     {
-        if(global.money &gt;= global.gallery_price){
-            global.money-=global.gallery_price;
-            global.gallery_price*=2;
-            global.auto_users_amount *= 1.5;
-            global.gallery_lvl += 1;
+        if(global.money &gt;= global.header_price){
+            global.money-=global.header_price;
+            global.header_price*=2;
+            global.auto_users_amount*=1.2;
+            global.header_lvl += 1;
         }
     }
 }
@@ -67,7 +67,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(450,270, "Gallery lvl: " + string(global.gallery_lvl) + " - Upgrade: " + string(global.gallery_price) + string(global.gallerycount), 2, 2, 0);
+    draw_text_transformed(450,140, "lvl: " + string(global.header_lvl) + " Banners - Upgrade: " + string(global.header_price) + string(global.headercount), 2, 2, 0);
 }
 </string>
           </argument>

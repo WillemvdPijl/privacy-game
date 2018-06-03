@@ -40,14 +40,19 @@
     <objects name="Buy/Sell">
       <objects name="Buy features">
         <object>objects\obj_shop1</object>
-        <object>objects\obj_gallery_price</object>
-        <object>objects\obj_header_price</object>
         <objects name="Icons">
           <object>objects\obj_shopgallery</object>
           <object>objects\obj_shopstories</object>
           <object>objects\obj_shopvideo</object>
           <object>objects\obj_shopgeo</object>
           <object>objects\obj_shopheader</object>
+        </objects>
+        <objects name="Buy buttons">
+          <object>objects\obj_video_buy</object>
+          <object>objects\obj_stories_buy</object>
+          <object>objects\obj_geo_buy</object>
+          <object>objects\obj_header_buy</object>
+          <object>objects\obj_gallery_buy</object>
         </objects>
       </objects>
       <objects name="Advertise">

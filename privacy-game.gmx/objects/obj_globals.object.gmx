@@ -26,11 +26,19 @@
           <argument>
             <kind>1</kind>
             <string>{
+// Global
     global.money = 50000;
     global.users = 0;
     global.moneycount = "";
     global.usercount = "";
     
+    global.auto_users = 0;
+    global.auto_users_amount = 0;
+    
+    global.auto_money = 0;
+    global.auto_money_amount = 0;
+    
+// Shop 1 products
     global.header_price = 300;
     global.headercount = "";
     global.header_lvl = 1;
@@ -39,11 +47,18 @@
     global.gallerycount = "";
     global.gallery_lvl = 1;
     
-    global.auto_users = 0;
-    global.auto_users_amount = 0;
+    global.video_price = 1000;
+    global.videocount = "";
+    global.video_lvl = 1;
     
-    global.auto_money = 0;
-    global.auto_money_amount = 0;
+    global.geo_price = 1500;
+    global.geocount = "";
+    global.geo_lvl = 1;
+    
+    global.stories_price = 2500;
+    global.storiescount = "";
+    global.stories_lvl = 1;
+
 }
 </string>
           </argument>
@@ -73,37 +88,61 @@
         global.money = global.money / 1000;
         global.header_price = global.header_price / 1000;
         global.gallery_price = global.gallery_price / 1000;
+        global.video_price = global.video_price / 1000;
+        global.geo_price = global.geo_price / 1000;
+        global.stories_price = global.stories_price / 1000;
         //25:00 in part 1 van oreo clicker
         global.moneycount = "K";
         global.headercount = "K";
         global.gallerycount = "K";
+        global.videocount = "K";
+        global.geocount = "K";
+        global.storiescount = "K";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "K") {
         global.money = global.money / 1000;
         global.header_price = global.header_price / 1000;
         global.gallery_price = global.gallery_price / 1000;
+        global.video_price = global.video_price / 1000;
+        global.geo_price = global.geo_price / 1000;
+        global.stories_price = global.stories_price / 1000;
         //25:00 in part 1 van oreo clicker
         global.moneycount = "M";
         global.headercount = "M";
         global.gallerycount = "M";
+        global.videocount = "M";
+        global.geocount = "M";
+        global.storiescount = "M";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "M") {
         global.money = global.money / 1000;
         global.header_price = global.header_price / 1000;
         global.gallery_price = global.gallery_price / 1000;
+        global.video_price = global.video_price / 1000;
+        global.geo_price = global.geo_price / 1000;
+        global.stories_price = global.stories_price / 1000;
         //25:00 in part 1 van oreo clicker
         global.moneycount = "B";
         global.headercount = "B";
         global.gallerycount = "B";
+        global.videocount = "B";
+        global.geocount = "B";
+        global.storiescount = "B";
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "B") {
         global.money = global.money / 1000;
         global.header_price = global.header_price / 1000;
         global.gallery_price = global.gallery_price / 1000;
+        global.video_price = global.video_price / 1000;
+        global.geo_price = global.geo_price / 1000;
+        global.stories_price = global.stories_price / 1000;
         //25:00 in part 1 van oreo clicker
         global.moneycount = "T";
         global.headercount = "T";
         global.gallerycount = "T";
+        global.videocount = "T";
+        global.geocount = "T";
+        global.storiescount = "T";
     }
     
     
