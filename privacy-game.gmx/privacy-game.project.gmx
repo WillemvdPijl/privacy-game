@@ -20,22 +20,32 @@
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
-    <object>objects\obj_globals</object>
-    <object>objects\obj_corner_money</object>
-    <object>objects\pbj_corner_users</object>
-    <object>objects\obj_shop1</object>
-    <object>objects\obj_shop2</object>
-    <object>objects\obj_back</object>
-    <object>objects\obj_shopheader</object>
-    <object>objects\obj_shopgallery</object>
-    <object>objects\obj_header_price</object>
-    <object>objects\obj_gallery_price</object>
-    <object>objects\obj_auto_users</object>
     <objects name="Employee">
       <object>objects\objEmployeeSittingFrontF</object>
     </objects>
-    <objects name="Level 2 Building">
-      <object>objects\objBureau</object>
+    <objects name="Buildings">
+      <objects name="Level 2 Building">
+        <object>objects\objBureau</object>
+      </objects>
+    </objects>
+    <objects name="Buy/Sell">
+      <objects name="Buy features">
+        <object>objects\obj_shop1</object>
+        <object>objects\obj_shopheader</object>
+        <object>objects\obj_shopgallery</object>
+        <object>objects\obj_gallery_price</object>
+        <object>objects\obj_header_price</object>
+      </objects>
+      <objects name="Advertise">
+        <object>objects\obj_shop2</object>
+      </objects>
+    </objects>
+    <objects name="Global">
+      <object>objects\obj_globals</object>
+      <object>objects\pbj_corner_users</object>
+      <object>objects\obj_corner_money</object>
+      <object>objects\obj_auto_users</object>
+      <object>objects\obj_back</object>
     </objects>
   </objects>
   <rooms name="rooms">
