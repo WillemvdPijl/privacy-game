@@ -6,12 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_hitbox</sprite>
     <sprites name="Employee">
       <sprite>sprites\sprEmployeeSittingFrontF</sprite>
-    </sprites>
-    <sprites name="Level 2 Building">
-      <sprite>sprites\sprBureau</sprite>
     </sprites>
     <sprites name="Shop1 products">
       <sprite>sprites\spr_header</sprite>
@@ -19,6 +15,16 @@
       <sprite>sprites\spr_geo</sprite>
       <sprite>sprites\spr_video</sprite>
       <sprite>sprites\spr_stories</sprite>
+    </sprites>
+    <sprite>sprites\spr_hitbox</sprite>
+    <sprites name="Buildings">
+      <sprites name="Level 1 Building">
+        <sprite>sprites\sprBureau1</sprite>
+        <sprite>sprites\sprChairFront1</sprite>
+      </sprites>
+      <sprites name="Level 2 Building">
+        <sprite>sprites\sprBureau2</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -32,8 +38,12 @@
       <object>objects\objEmployeeSittingFrontF</object>
     </objects>
     <objects name="Buildings">
+      <objects name="Level 1 Building">
+        <object>objects\objBureau1</object>
+        <object>objects\objChairFront1</object>
+      </objects>
       <objects name="Level 2 Building">
-        <object>objects\objBureau</object>
+        <object>objects\objBureau2</object>
       </objects>
     </objects>
     <objects name="Buy/Sell">
