@@ -20,9 +20,10 @@
     <sprites name="Buildings">
       <sprites name="Level 1 Building">
         <sprite>sprites\sprBureau1</sprite>
+        <sprite>sprites\sprChairFront1</sprite>
       </sprites>
       <sprites name="Level 2 Building">
-        <sprite>sprites\sprBureau</sprite>
+        <sprite>sprites\sprBureau2</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -37,8 +38,12 @@
       <object>objects\objEmployeeSittingFrontF</object>
     </objects>
     <objects name="Buildings">
+      <objects name="Level 1 Building">
+        <object>objects\objBureau1</object>
+        <object>objects\objChairFront1</object>
+      </objects>
       <objects name="Level 2 Building">
-        <object>objects\objBureau</object>
+        <object>objects\objBureau2</object>
       </objects>
     </objects>
     <objects name="Buy/Sell">

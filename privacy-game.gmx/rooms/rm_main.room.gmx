@@ -62,10 +62,13 @@
     <instance objName="obj_globals" x="512" y="256" name="inst_D80E9548" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_globals" x="576" y="96" name="inst_FAF7BDA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_auto_users" x="128" y="288" name="inst_B01E0AEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objEmployeeSittingFrontF" x="224" y="288" name="inst_34C4A379" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objBureau" x="184" y="256" name="inst_E3095FA4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_globals" x="480" y="192" name="inst_E0513CCC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_auto_money" x="64" y="224" name="inst_34E4BD08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBureau1" x="224" y="352" name="inst_F8CFF20F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objChairFront1" x="141" y="349" name="inst_7C2953BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEmployeeSittingFrontF" x="133" y="304" name="inst_49487B7E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objBureau2" x="320" y="256" name="inst_49597B49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objEmployeeSittingFrontF" x="359" y="288" name="inst_9B30B86E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
