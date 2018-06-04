@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>{
     draw_text_transformed(640,10, "Money: " + string(global.money) + global.moneycount, 2, 2, 0);
-    draw_text_transformed(930,10, "Per sec: " + string(global.auto_money_amount) + global.moneycount, 2, 2, 0);
+    draw_text_transformed(930,10, "Per sec: " + string(global.auto_money_amount), 2, 2, 0);
 }
 </string>
           </argument>
