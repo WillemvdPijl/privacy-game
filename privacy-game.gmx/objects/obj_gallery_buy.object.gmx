@@ -39,7 +39,7 @@
         if(global.money &gt;= global.gallery_price){
             global.money-=global.gallery_price;
             global.gallery_price*=2;
-            global.auto_users_amount *= 1.5;
+            global.auto_users_amount *= global.gallery_multiplier;
             global.gallery_lvl += 1;
         }
     }

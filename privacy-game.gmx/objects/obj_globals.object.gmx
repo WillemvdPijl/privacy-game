@@ -42,22 +42,28 @@
     global.header_price = 300;
     global.headercount = "";
     global.header_lvl = 1;
+    global.header_multiplier = 1.2;
     
     global.gallery_price = 600;
     global.gallerycount = "";
     global.gallery_lvl = 1;
+    global.gallery_multiplier = 1.5;
     
     global.video_price = 1000;
     global.videocount = "";
     global.video_lvl = 1;
+    global.video_multiplier = 1.8;
     
     global.geo_price = 1500;
     global.geocount = "";
     global.geo_lvl = 1;
+    global.geo_multiplier = 2;
     
     global.stories_price = 2500;
     global.storiescount = "";
     global.stories_lvl = 1;
+    global.stories_multiplier = 2.5;
+    
 
 }
 </string>

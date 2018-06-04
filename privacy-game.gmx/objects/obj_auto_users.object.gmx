@@ -55,7 +55,7 @@
 /* needs to be here until we can sell users */ 
         //global.money+=10;
 /* ---------------------------------------- */
-        alarm[0] = 15;
+        alarm[0] = 30;
     }
 }
 </string>

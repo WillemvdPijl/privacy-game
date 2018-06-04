@@ -39,7 +39,7 @@
         if(global.money &gt;= global.header_price){
             global.money-=global.header_price;
             global.header_price*=2;
-            global.auto_users_amount*=1.2;
+            global.auto_users_amount *= global.header_multiplier;
             global.header_lvl += 1;
         }
     }

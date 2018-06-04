@@ -39,7 +39,7 @@
         if(global.money &gt;= global.stories_price){
             global.money-=global.stories_price;
             global.stories_price*=3;
-            global.auto_users_amount*=2;
+            global.auto_users_amount*=global.stories_multiplier;
             global.stories_lvl += 1;
         }
     }

@@ -39,7 +39,7 @@
         if(global.money &gt;= global.video_price){
             global.money-=global.video_price;
             global.video_price*=2;
-            global.auto_users_amount*=1.5;
+            global.auto_users_amount *= global.video_multiplier;
             global.video_lvl += 1;
         }
     }

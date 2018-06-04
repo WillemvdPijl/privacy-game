@@ -26,7 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(800,50, "Users: " + string_format(global.users, 1, 0) + global.usercount, 2, 2, 0);
+    draw_text_transformed(640,50, "Users: " + string_format(global.users, 1, 0) + global.usercount, 2, 2, 0);
+    draw_text_transformed(930,50, "Per sec: " + string_format(global.auto_users_amount, 1, 0) + global.usercount, 2, 2, 0);
    }
 </string>
           </argument>

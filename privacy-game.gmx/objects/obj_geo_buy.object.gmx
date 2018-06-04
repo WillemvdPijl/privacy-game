@@ -39,7 +39,7 @@
         if(global.money &gt;= global.geo_price){
             global.money-=global.geo_price;
             global.geo_price*=2;
-            global.auto_users_amount*=1.8;
+            global.auto_users_amount*=global.geo_multiplier;
             global.geo_lvl += 1;
         }
     }
