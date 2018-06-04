@@ -67,7 +67,9 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(450,400, "lvl: " + string(global.video_lvl) + " Video - Upgrade: " + string(global.video_price) + string(global.videocount), 2, 2, 0);
+    draw_text_transformed(450,400, "lvl: " + string(global.video_lvl) + " Videos", 2, 2, 0);
+    draw_text_transformed(800,400, "- Upgrade: " + string(global.video_price) + string(global.videocount), 2, 2, 0);
+
 }
 </string>
           </argument>
