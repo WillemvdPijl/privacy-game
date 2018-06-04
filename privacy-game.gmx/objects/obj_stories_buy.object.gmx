@@ -67,7 +67,8 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(450,680, "lvl: " + string(global.stories_lvl) + " Stories - Upgrade: " + string(global.stories_price) + string(global.storiescount), 2, 2, 0);
+    draw_text_transformed(450,680, "lvl: " + string(global.stories_lvl) + " Stories"  + " - X" + string(global.stories_multiplier), 2, 2, 0);
+    draw_text_transformed(900,680, "- Upgrade: " + string(global.stories_price) + string(global.storiescount), 2, 2, 0);
 }
 </string>
           </argument>

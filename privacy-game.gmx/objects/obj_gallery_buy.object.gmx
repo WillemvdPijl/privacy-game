@@ -67,7 +67,8 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(450,270, "lvl: " + string(global.gallery_lvl) + " Gallery - Upgrade: " + string(global.gallery_price) + string(global.gallerycount), 2, 2, 0);
+    draw_text_transformed(450,270, "lvl: " + string(global.gallery_lvl) + " Gallery" + " - X" + string(global.gallery_multiplier), 2, 2, 0);
+    draw_text_transformed(900,270, "- Upgrade: " + string(global.gallery_price) + string(global.gallerycount), 2, 2, 0);
 }
 </string>
           </argument>

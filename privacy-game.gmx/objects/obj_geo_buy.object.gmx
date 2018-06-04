@@ -67,7 +67,8 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(450,530, "lvl: " + string(global.geo_lvl) + " Social map - Upgrade: " + string(global.geo_price) + string(global.geocount), 2, 2, 0);
+    draw_text_transformed(450,530, "lvl: " + string(global.geo_lvl) + " Social map" + " - X" + string(global.geo_multiplier), 2, 2, 0);
+    draw_text_transformed(900,530, "- Upgrade: " + string(global.geo_price) + string(global.geocount), 2, 2, 0);
 }
 </string>
           </argument>
