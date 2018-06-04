@@ -56,6 +56,9 @@
       </objects>
       <objects name="Advertise">
         <object>objects\obj_shop2</object>
+        <objects name="Buttons">
+          <object>objects\obj_advert1</object>
+        </objects>
       </objects>
     </objects>
     <objects name="Global">
@@ -63,6 +66,7 @@
       <object>objects\pbj_corner_users</object>
       <object>objects\obj_corner_money</object>
       <object>objects\obj_auto_users</object>
+      <object>objects\obj_auto_money</object>
       <object>objects\obj_back</object>
     </objects>
   </objects>

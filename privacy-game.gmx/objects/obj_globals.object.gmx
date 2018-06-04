@@ -64,7 +64,9 @@
     global.stories_lvl = 1;
     global.stories_multiplier = 2.5;
     
-
+//Shop 2 adverts
+    global.advert1 = 50;
+    global.advert1_multiplier = 2;
 }
 </string>
           </argument>
