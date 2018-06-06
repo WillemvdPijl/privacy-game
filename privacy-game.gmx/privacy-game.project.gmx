@@ -25,6 +25,9 @@
       <sprites name="Level 2 Building">
         <sprite>sprites\sprBureau2</sprite>
       </sprites>
+      <sprites name="Level 3 Building">
+        <sprite>sprites\sprBureau3</sprite>
+      </sprites>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -46,6 +49,9 @@
       </objects>
       <objects name="Level 2 Building">
         <object>objects\objBureau2</object>
+      </objects>
+      <objects name="Level 3 Building">
+        <object>objects\objBureau3</object>
       </objects>
     </objects>
     <objects name="Buy/Sell">
