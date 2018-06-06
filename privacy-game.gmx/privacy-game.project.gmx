@@ -31,6 +31,8 @@
     <background>background\bgr_shop1</background>
     <background>background\bgr_shop2</background>
     <background>background\bgr_room1</background>
+    <background>background\bgr_shop2_Silver</background>
+    <background>background\bgr_shop2_Gold</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -64,10 +66,15 @@
           <object>objects\obj_gallery_buy</object>
         </objects>
       </objects>
-      <objects name="Advertise">
+      <objects name="Deals">
         <object>objects\obj_shop2</object>
         <objects name="Buttons">
           <object>objects\obj_advert1</object>
+        </objects>
+        <objects name="Tier Buttons">
+          <object>objects\obj_Bronze_room</object>
+          <object>objects\obj_Silver_room</object>
+          <object>objects\obj_Gold_room</object>
         </objects>
       </objects>
     </objects>
@@ -85,6 +92,8 @@
     <room>rooms\rm_main</room>
     <room>rooms\rm_shop1</room>
     <room>rooms\rm_shop2</room>
+    <room>rooms\rm_shop2_Silver</room>
+    <room>rooms\rm_shop2_Gold</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
