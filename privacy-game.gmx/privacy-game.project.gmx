@@ -76,6 +76,9 @@
           <object>objects\obj_Silver_room</object>
           <object>objects\obj_Gold_room</object>
         </objects>
+        <objects name="Buy buttons">
+          <object>objects\obj_deal_1_buy</object>
+        </objects>
       </objects>
     </objects>
     <objects name="Global">
