@@ -49,36 +49,8 @@
           <argument>
             <kind>1</kind>
             <string>{
-    if(
-    global.deal_1 == true &amp;&amp; 
-    global.deal_2 == true &amp;&amp;
-    global.deal_3 == true &amp;&amp;
-    global.deal_4 == true &amp;&amp;
-    global.deal_5 == true &amp;&amp;
-    global.deal_6 == true &amp;&amp; 
-    global.deal_7 == true &amp;&amp;
-    global.deal_8 == true &amp;&amp;
-    global.deal_9 == true &amp;&amp;
-    global.deal_10 == true
-    )
-    {
-    room_goto(rm_main_3);
-    }
+    room_goto_next();
     
-    if(
-    global.deal_1 == true &amp;&amp; 
-    global.deal_2 == true &amp;&amp;
-    global.deal_3 == true &amp;&amp;
-    global.deal_4 == true &amp;&amp;
-    global.deal_5 == true
-    )
-    {
-    room_goto(rm_main_2);
-    }
-    
-    else{
-    room_goto(rm_main);
-    }
 }
 </string>
           </argument>
@@ -103,7 +75,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(15,25, "Back ", 2, 2, 0);
+    draw_text_transformed(15,25, "Click to start ", 2, 2, 0);
 }
 </string>
           </argument>

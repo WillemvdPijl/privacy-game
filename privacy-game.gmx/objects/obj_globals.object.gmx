@@ -77,6 +77,27 @@
     
     //Shop2
     global.advert1_multiplier   = 2;
+        //Bronze
+        global.deal_1               = false;
+        global.deal_2               = false;
+        global.deal_3               = false;
+        global.deal_4               = false;
+        global.deal_5               = false;
+        
+        //Silver
+        global.deal_6               = false;
+        global.deal_7               = false;
+        global.deal_8               = false;
+        global.deal_9               = false;
+        global.deal_10              = false;
+        
+        //Gold
+        global.deal_11              = false;
+        global.deal_12              = false;
+        global.deal_13              = false;
+        global.deal_14              = false;
+        global.deal_15              = false;
+    
 }
 </string>
           </argument>
