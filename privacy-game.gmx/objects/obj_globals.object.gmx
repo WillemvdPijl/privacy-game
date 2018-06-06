@@ -76,7 +76,7 @@
     global.stories_multiplier   = 2.5;
     
     //Shop2
-    global.advert1_multiplier   = 2;
+    global.deal_1_multiplier   = 2;
     
     //Shop 2 deals
         //Bronze
@@ -102,7 +102,7 @@
     
     //Shop 2 prices
         //Bronze
-        global.deal_1_price         = 500;
+        global.deal_1_price         = 20;
         global.deal_2_price         = 500;
         global.deal_3_price         = 500;
         global.deal_4_price         = 500;
@@ -160,6 +160,7 @@
         global.videocount = "K";
         global.geocount = "K";
         global.storiescount = "K";
+        global.auto_money_amount = global.auto_money_amount / 1000;
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "K") {
         global.money = global.money / 1000;
@@ -175,6 +176,7 @@
         global.videocount = "M";
         global.geocount = "M";
         global.storiescount = "M";
+        global.auto_money_amount = global.auto_money_amount / 1000;
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "M") {
         global.money = global.money / 1000;
@@ -190,6 +192,7 @@
         global.videocount = "B";
         global.geocount = "B";
         global.storiescount = "B";
+        global.auto_money_amount = global.auto_money_amount / 1000;
     }
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "B") {
         global.money = global.money / 1000;
@@ -205,6 +208,7 @@
         global.videocount = "T";
         global.geocount = "T";
         global.storiescount = "T";
+        global.auto_money_amount = global.auto_money_amount / 1000;
     }
     
     
