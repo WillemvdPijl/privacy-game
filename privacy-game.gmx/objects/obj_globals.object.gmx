@@ -76,7 +76,29 @@
     global.stories_multiplier   = 2.5;
     
     //Shop2
-    global.deal_1_multiplier   = 2;
+    global.auto_money_first    = 50;
+    
+    //Shop 2 Multipliers
+        //Bronze
+        global.deal_1_multiplier    = 2;
+        global.deal_2_multiplier    = 2;
+        global.deal_3_multiplier    = 2;
+        global.deal_4_multiplier    = 2;
+        global.deal_5_multiplier    = 2;
+        
+        //Silver
+        global.deal_6_multiplier    = 2;
+        global.deal_7_multiplier    = 2;
+        global.deal_8_multiplier    = 2;
+        global.deal_9_multiplier    = 2;
+        global.deal_10_multiplier   = 2;
+        
+        //Gold
+        global.deal_11_multiplier   = 2;
+        global.deal_12_multiplier   = 2;
+        global.deal_13_multiplier   = 2;
+        global.deal_14_multiplier   = 2;
+        global.deal_15_multiplier   = 2;
     
     //Shop 2 deals
         //Bronze
@@ -121,6 +143,29 @@
         global.deal_13_price        = 500;
         global.deal_14_price        = 500;
         global.deal_15_price        = 500;
+
+    //Shop 2 names
+        //Bronze
+        global.deal_1_name          = 'Deal 1';
+        global.deal_2_name          = 'Deal 2';
+        global.deal_3_name          = 'Deal 3';
+        global.deal_4_name          = 'Deal 4';
+        global.deal_5_name          = 'Deal 5';
+        
+        //Silver
+        global.deal_6_name          = 'Deal 6';
+        global.deal_7_name          = 'Deal 7';
+        global.deal_8_name          = 'Deal 8';
+        global.deal_9_name          = 'Deal 9';
+        global.deal_10_name         = 'Deal 10';
+        
+        //Gold
+        global.deal_11_name         = 'Deal 11';
+        global.deal_12_name         = 'Deal 12';
+        global.deal_13_name         = 'Deal 13';
+        global.deal_14_name         = 'Deal 14';
+        global.deal_15_name         = 'Deal 15';
+    
 }
 </string>
           </argument>
@@ -161,7 +206,28 @@
         global.geocount = "K";
         global.storiescount = "K";
         global.auto_money_amount = global.auto_money_amount / 1000;
+        global.auto_money_first = global.auto_money_first / 1000;
+        
+        global.deal_1_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_1_price / 1000;
+        global.deal_3_price = global.deal_1_price / 1000;
+        global.deal_4_price = global.deal_1_price / 1000;
+        global.deal_5_price = global.deal_1_price / 1000;
+        global.deal_6_price = global.deal_1_price / 1000;
+        global.deal_7_price = global.deal_1_price / 1000;
+        global.deal_8_price = global.deal_1_price / 1000;
+        global.deal_9_price = global.deal_1_price / 1000;
+        global.deal_10_price = global.deal_1_price / 1000;
+        global.deal_11_price = global.deal_1_price / 1000;
+        global.deal_12_price = global.deal_1_price / 1000;
+        global.deal_13_price = global.deal_1_price / 1000;
+        global.deal_14_price = global.deal_1_price / 1000;
+        global.deal_15_price = global.deal_1_price / 1000;
     }
+    
+    
+    
+    
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "K") {
         global.money = global.money / 1000;
         global.header_price = global.header_price / 1000;
@@ -177,7 +243,28 @@
         global.geocount = "M";
         global.storiescount = "M";
         global.auto_money_amount = global.auto_money_amount / 1000;
+        global.auto_money_first = global.auto_money_first / 1000;
+        
+        global.deal_1_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_1_price / 1000;
+        global.deal_3_price = global.deal_1_price / 1000;
+        global.deal_4_price = global.deal_1_price / 1000;
+        global.deal_5_price = global.deal_1_price / 1000;
+        global.deal_6_price = global.deal_1_price / 1000;
+        global.deal_7_price = global.deal_1_price / 1000;
+        global.deal_8_price = global.deal_1_price / 1000;
+        global.deal_9_price = global.deal_1_price / 1000;
+        global.deal_10_price = global.deal_1_price / 1000;
+        global.deal_11_price = global.deal_1_price / 1000;
+        global.deal_12_price = global.deal_1_price / 1000;
+        global.deal_13_price = global.deal_1_price / 1000;
+        global.deal_14_price = global.deal_1_price / 1000;
+        global.deal_15_price = global.deal_1_price / 1000;
     }
+    
+    
+    
+    
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "M") {
         global.money = global.money / 1000;
         global.header_price = global.header_price / 1000;
@@ -193,7 +280,28 @@
         global.geocount = "B";
         global.storiescount = "B";
         global.auto_money_amount = global.auto_money_amount / 1000;
+        global.auto_money_first = global.auto_money_first / 1000;
+        
+        global.deal_1_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_1_price / 1000;
+        global.deal_3_price = global.deal_1_price / 1000;
+        global.deal_4_price = global.deal_1_price / 1000;
+        global.deal_5_price = global.deal_1_price / 1000;
+        global.deal_6_price = global.deal_1_price / 1000;
+        global.deal_7_price = global.deal_1_price / 1000;
+        global.deal_8_price = global.deal_1_price / 1000;
+        global.deal_9_price = global.deal_1_price / 1000;
+        global.deal_10_price = global.deal_1_price / 1000;
+        global.deal_11_price = global.deal_1_price / 1000;
+        global.deal_12_price = global.deal_1_price / 1000;
+        global.deal_13_price = global.deal_1_price / 1000;
+        global.deal_14_price = global.deal_1_price / 1000;
+        global.deal_15_price = global.deal_1_price / 1000;
     }
+    
+    
+    
+    
     if(global.money &gt;= 1000 &amp;&amp; global.moneycount == "B") {
         global.money = global.money / 1000;
         global.header_price = global.header_price / 1000;
@@ -209,6 +317,23 @@
         global.geocount = "T";
         global.storiescount = "T";
         global.auto_money_amount = global.auto_money_amount / 1000;
+        global.auto_money_first = global.auto_money_first / 1000;
+        
+        global.deal_1_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_1_price / 1000;
+        global.deal_3_price = global.deal_1_price / 1000;
+        global.deal_4_price = global.deal_1_price / 1000;
+        global.deal_5_price = global.deal_1_price / 1000;
+        global.deal_6_price = global.deal_1_price / 1000;
+        global.deal_7_price = global.deal_1_price / 1000;
+        global.deal_8_price = global.deal_1_price / 1000;
+        global.deal_9_price = global.deal_1_price / 1000;
+        global.deal_10_price = global.deal_1_price / 1000;
+        global.deal_11_price = global.deal_1_price / 1000;
+        global.deal_12_price = global.deal_1_price / 1000;
+        global.deal_13_price = global.deal_1_price / 1000;
+        global.deal_14_price = global.deal_1_price / 1000;
+        global.deal_15_price = global.deal_1_price / 1000;
     }
     
     

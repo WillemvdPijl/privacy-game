@@ -83,7 +83,13 @@
           <object>objects\obj_Gold_room</object>
         </objects>
         <objects name="Buy buttons">
-          <object>objects\obj_deal_1_buy</object>
+          <objects name="Bronze">
+            <object>objects\obj_deal_1_buy</object>
+            <object>objects\obj_deal_2_buy</object>
+            <object>objects\obj_deal_3_buy</object>
+            <object>objects\obj_deal_4_buy</object>
+            <object>objects\obj_deal_5_buy</object>
+          </objects>
         </objects>
       </objects>
     </objects>

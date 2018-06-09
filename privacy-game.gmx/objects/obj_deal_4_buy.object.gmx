@@ -27,18 +27,18 @@
             <kind>1</kind>
             <string>{
     if(global.auto_money = 0){
-        if(global.users &gt;= global.deal_1_price  &amp;&amp; global.deal_1 == false){
+        if(global.users &gt;= global.deal_4_price  &amp;&amp; global.deal_4 == false){
             global.auto_money = 1;
-            global.deal_1 = true;
-            global.auto_money_amount = 50;
-            global.deal_1_name += ' bought'
+            global.deal_4 = true;
+            global.auto_money_amount = global.auto_money_first;
+            global.deal_4_name += ' bought'
         }
     }else
     {
-        if(global.users &gt;= global.deal_1_price  &amp;&amp; global.deal_1 == false){
-            global.auto_money_amount *= global.deal_1_multiplier;
-            global.deal_1 = true;
-            global.deal_1_name += ' bought'
+        if(global.users &gt;= global.deal_4_price  &amp;&amp; global.deal_4 == false){
+            global.auto_money_amount *= global.deal_4_multiplier;
+            global.deal_4 = true;
+            global.deal_4_name += ' bought'
         }
     }
 }
@@ -65,9 +65,8 @@
           <argument>
             <kind>1</kind>
             <string>{
-    //draw_text_transformed(550,190, string(global.deal_1_name) + " - Users/sec: X" + string(global.deal_1_multiplier), 2, 2, 0);
-    draw_text_transformed(470,200, string(global.deal_1_name) + " - Users/sec: 1", 2, 2, 0);
-    draw_text_transformed(950,200, "Price: " + string(global.deal_1_price) + string(global.moneycount), 2, 2, 0);
+    draw_text_transformed(470,580, string(global.deal_4_name) + " - Users/sec: X" + string(global.deal_4_multiplier), 2, 2, 0);
+    draw_text_transformed(950,580, "Price: " + string(global.deal_4_price) + string(global.moneycount), 2, 2, 0);
 }
 </string>
           </argument>
