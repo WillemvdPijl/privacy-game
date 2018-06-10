@@ -97,6 +97,13 @@
             <object>objects\obj_deal_9_buy</object>
             <object>objects\obj_deal_10_buy</object>
           </objects>
+          <objects name="Gold">
+            <object>objects\obj_deal_11_buy</object>
+            <object>objects\obj_deal_12_buy</object>
+            <object>objects\obj_deal_13_buy</object>
+            <object>objects\obj_deal_14_buy</object>
+            <object>objects\obj_deal_15_buy</object>
+          </objects>
         </objects>
       </objects>
     </objects>
