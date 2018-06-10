@@ -58,6 +58,11 @@
     <instance objName="obj_auto_money" x="288" y="384" name="inst_005CD16E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Gold_room" x="128" y="544" name="inst_EC6C8E97" locked="0" code="" scaleX="1.12000000476837" scaleY="4.48000001907349" colour="4294967295" rotation="0"/>
     <instance objName="obj_Bronze_room" x="128" y="256" name="inst_CBC00EE0" locked="0" code="" scaleX="1.12000000476837" scaleY="4.48000001907349" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_6_buy" x="512" y="192" name="inst_2F39BFE4" locked="0" code="" scaleX="4.21999979019165" scaleY="1.75510203838348" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_7_buy" x="512" y="320" name="inst_55E5A2C5" locked="0" code="" scaleX="4.25" scaleY="1.75510203838348" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_8_buy" x="512" y="448" name="inst_1866330A" locked="0" code="" scaleX="4.2649998664856" scaleY="1.77999997138977" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_9_buy" x="512" y="576" name="inst_3E84364F" locked="0" code="" scaleX="4.2350001335144" scaleY="1.75510203838348" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_10_buy" x="512" y="704" name="inst_AFAFC4B1" locked="0" code="" scaleX="4.22499990463257" scaleY="1.77999997138977" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

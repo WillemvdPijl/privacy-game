@@ -65,7 +65,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(470,580, string(global.deal_4_name) + " - Users/sec: X" + string(global.deal_4_multiplier), 2, 2, 0);
+    draw_text_transformed(470,580, string(global.deal_4_name) + " - $/sec: X" + string(global.deal_4_multiplier), 2, 2, 0);
     draw_text_transformed(950,580, "Price: " + string(global.deal_4_price) + string(global.moneycount), 2, 2, 0);
 }
 </string>

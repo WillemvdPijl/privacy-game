@@ -90,6 +90,13 @@
             <object>objects\obj_deal_4_buy</object>
             <object>objects\obj_deal_5_buy</object>
           </objects>
+          <objects name="Silver">
+            <object>objects\obj_deal_6_buy</object>
+            <object>objects\obj_deal_7_buy</object>
+            <object>objects\obj_deal_8_buy</object>
+            <object>objects\obj_deal_9_buy</object>
+            <object>objects\obj_deal_10_buy</object>
+          </objects>
         </objects>
       </objects>
     </objects>

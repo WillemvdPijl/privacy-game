@@ -27,18 +27,18 @@
             <kind>1</kind>
             <string>{
     if(global.auto_money = 0){
-        if(global.users &gt;= global.deal_5_price  &amp;&amp; global.deal_5 == false){
+        if(global.users &gt;= global.deal_9_price  &amp;&amp; global.deal_9 == false){
             global.auto_money = 1;
-            global.deal_5 = true;
+            global.deal_9 = true;
             global.auto_money_amount = global.auto_money_first;
-            global.deal_5_name += ' bought'
+            global.deal_9_name += ' bought'
         }
     }else
     {
-        if(global.users &gt;= global.deal_5_price  &amp;&amp; global.deal_5 == false){
-            global.auto_money_amount *= global.deal_5_multiplier;
-            global.deal_5 = true;
-            global.deal_5_name += ' bought'
+        if(global.users &gt;= global.deal_9_price  &amp;&amp; global.deal_9 == false){
+            global.auto_money_amount *= global.deal_9_multiplier;
+            global.deal_9 = true;
+            global.deal_9_name += ' bought'
         }
     }
 }
@@ -65,8 +65,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    draw_text_transformed(470,710, string(global.deal_5_name) + " - $/sec: X" + string(global.deal_5_multiplier), 2, 2, 0);
-    draw_text_transformed(950,710, "Price: " + string(global.deal_5_price) + string(global.moneycount), 2, 2, 0);
+    draw_text_transformed(950,580, "Price: " + string(global.deal_9_price) + string(global.moneycount), 2, 2, 0);
 }
 </string>
           </argument>
