@@ -404,19 +404,7 @@ if(
        global.gold = true; 
     }
     
-    
-//Test voor personages    
-if (global.deal_1 == true){
-    
-    object_set_visible( objEmployeeSittingFrontF, false );
-}
-if (global.deal_5 == true){
-    
-    object_set_visible( objEmployeeSittingFrontF, true );
-}
-    
-    
-    
+       
     
 }
 </string>
