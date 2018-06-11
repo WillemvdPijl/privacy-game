@@ -50,35 +50,26 @@
             <kind>1</kind>
             <string>{
     if(
-    global.deal_1 == true &amp;&amp; 
-    global.deal_2 == true &amp;&amp;
-    global.deal_3 == true &amp;&amp;
-    global.deal_4 == true &amp;&amp;
-    global.deal_5 == true &amp;&amp;
-    global.deal_6 == true &amp;&amp; 
-    global.deal_7 == true &amp;&amp;
-    global.deal_8 == true &amp;&amp;
-    global.deal_9 == true &amp;&amp;
-    global.deal_10 == true
+    global.silver == true &amp;&amp; global.bronze == true 
     )
     {
     room_goto(rm_main_3);
     }
     
     if(
-    global.deal_1 == true &amp;&amp; 
-    global.deal_2 == true &amp;&amp;
-    global.deal_3 == true &amp;&amp;
-    global.deal_4 == true &amp;&amp;
-    global.deal_5 == true
+    global.silver == false &amp;&amp; global.bronze == true
     )
     {
     room_goto(rm_main_2);
     }
     
-    else{
+    if(
+    global.silver == false &amp;&amp; global.bronze == false
+    )
+    {
     room_goto(rm_main);
     }
+    
 }
 </string>
           </argument>

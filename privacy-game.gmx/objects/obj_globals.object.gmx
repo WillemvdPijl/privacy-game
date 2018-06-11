@@ -28,7 +28,7 @@
             <string>{
 // Global
     global.money = 500;
-    global.users = 0;
+    global.users = 500;
     global.moneycount = "";
     global.usercount = "";
     
@@ -77,6 +77,9 @@
     
     //Shop2
     global.auto_money_first    = 50;
+    global.bronze              = false;
+    global.silver              = false;
+    global.gold                = false;
     
     //Shop 2 Multipliers
         //Bronze
@@ -207,22 +210,6 @@
         global.storiescount = "K";
         global.auto_money_amount = global.auto_money_amount / 1000;
         global.auto_money_first = global.auto_money_first / 1000;
-        
-        global.deal_1_price = global.deal_1_price / 1000;
-        global.deal_2_price = global.deal_1_price / 1000;
-        global.deal_3_price = global.deal_1_price / 1000;
-        global.deal_4_price = global.deal_1_price / 1000;
-        global.deal_5_price = global.deal_1_price / 1000;
-        global.deal_6_price = global.deal_1_price / 1000;
-        global.deal_7_price = global.deal_1_price / 1000;
-        global.deal_8_price = global.deal_1_price / 1000;
-        global.deal_9_price = global.deal_1_price / 1000;
-        global.deal_10_price = global.deal_1_price / 1000;
-        global.deal_11_price = global.deal_1_price / 1000;
-        global.deal_12_price = global.deal_1_price / 1000;
-        global.deal_13_price = global.deal_1_price / 1000;
-        global.deal_14_price = global.deal_1_price / 1000;
-        global.deal_15_price = global.deal_1_price / 1000;
     }
     
     
@@ -244,22 +231,6 @@
         global.storiescount = "M";
         global.auto_money_amount = global.auto_money_amount / 1000;
         global.auto_money_first = global.auto_money_first / 1000;
-        
-        global.deal_1_price = global.deal_1_price / 1000;
-        global.deal_2_price = global.deal_1_price / 1000;
-        global.deal_3_price = global.deal_1_price / 1000;
-        global.deal_4_price = global.deal_1_price / 1000;
-        global.deal_5_price = global.deal_1_price / 1000;
-        global.deal_6_price = global.deal_1_price / 1000;
-        global.deal_7_price = global.deal_1_price / 1000;
-        global.deal_8_price = global.deal_1_price / 1000;
-        global.deal_9_price = global.deal_1_price / 1000;
-        global.deal_10_price = global.deal_1_price / 1000;
-        global.deal_11_price = global.deal_1_price / 1000;
-        global.deal_12_price = global.deal_1_price / 1000;
-        global.deal_13_price = global.deal_1_price / 1000;
-        global.deal_14_price = global.deal_1_price / 1000;
-        global.deal_15_price = global.deal_1_price / 1000;
     }
     
     
@@ -281,22 +252,6 @@
         global.storiescount = "B";
         global.auto_money_amount = global.auto_money_amount / 1000;
         global.auto_money_first = global.auto_money_first / 1000;
-        
-        global.deal_1_price = global.deal_1_price / 1000;
-        global.deal_2_price = global.deal_1_price / 1000;
-        global.deal_3_price = global.deal_1_price / 1000;
-        global.deal_4_price = global.deal_1_price / 1000;
-        global.deal_5_price = global.deal_1_price / 1000;
-        global.deal_6_price = global.deal_1_price / 1000;
-        global.deal_7_price = global.deal_1_price / 1000;
-        global.deal_8_price = global.deal_1_price / 1000;
-        global.deal_9_price = global.deal_1_price / 1000;
-        global.deal_10_price = global.deal_1_price / 1000;
-        global.deal_11_price = global.deal_1_price / 1000;
-        global.deal_12_price = global.deal_1_price / 1000;
-        global.deal_13_price = global.deal_1_price / 1000;
-        global.deal_14_price = global.deal_1_price / 1000;
-        global.deal_15_price = global.deal_1_price / 1000;
     }
     
     
@@ -318,7 +273,86 @@
         global.storiescount = "T";
         global.auto_money_amount = global.auto_money_amount / 1000;
         global.auto_money_first = global.auto_money_first / 1000;
+    }
+    
+    
+    //Users
+    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "") {
+        global.users = global.users / 1000;
+        global.auto_users_amount = global.auto_users_amount / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.usercount = "K";
         
+                
+        global.deal_1_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_1_price / 1000;
+        global.deal_3_price = global.deal_1_price / 1000;
+        global.deal_4_price = global.deal_1_price / 1000;
+        global.deal_5_price = global.deal_1_price / 1000;
+        global.deal_6_price = global.deal_1_price / 1000;
+        global.deal_7_price = global.deal_1_price / 1000;
+        global.deal_8_price = global.deal_1_price / 1000;
+        global.deal_9_price = global.deal_1_price / 1000;
+        global.deal_10_price = global.deal_1_price / 1000;
+        global.deal_11_price = global.deal_1_price / 1000;
+        global.deal_12_price = global.deal_1_price / 1000;
+        global.deal_13_price = global.deal_1_price / 1000;
+        global.deal_14_price = global.deal_1_price / 1000;
+        global.deal_15_price = global.deal_1_price / 1000;
+    }
+    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "K") {
+        global.users = global.users / 1000;
+        global.auto_users_amount = global.auto_users_amount / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.usercount = "M";
+        
+                
+        global.deal_1_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_1_price / 1000;
+        global.deal_3_price = global.deal_1_price / 1000;
+        global.deal_4_price = global.deal_1_price / 1000;
+        global.deal_5_price = global.deal_1_price / 1000;
+        global.deal_6_price = global.deal_1_price / 1000;
+        global.deal_7_price = global.deal_1_price / 1000;
+        global.deal_8_price = global.deal_1_price / 1000;
+        global.deal_9_price = global.deal_1_price / 1000;
+        global.deal_10_price = global.deal_1_price / 1000;
+        global.deal_11_price = global.deal_1_price / 1000;
+        global.deal_12_price = global.deal_1_price / 1000;
+        global.deal_13_price = global.deal_1_price / 1000;
+        global.deal_14_price = global.deal_1_price / 1000;
+        global.deal_15_price = global.deal_1_price / 1000;
+    }   
+    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "M") {
+        global.users = global.users / 1000;
+        global.auto_users_amount = global.auto_users_amount / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.usercount = "B";
+        
+                
+        global.deal_1_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_1_price / 1000;
+        global.deal_3_price = global.deal_1_price / 1000;
+        global.deal_4_price = global.deal_1_price / 1000;
+        global.deal_5_price = global.deal_1_price / 1000;
+        global.deal_6_price = global.deal_1_price / 1000;
+        global.deal_7_price = global.deal_1_price / 1000;
+        global.deal_8_price = global.deal_1_price / 1000;
+        global.deal_9_price = global.deal_1_price / 1000;
+        global.deal_10_price = global.deal_1_price / 1000;
+        global.deal_11_price = global.deal_1_price / 1000;
+        global.deal_12_price = global.deal_1_price / 1000;
+        global.deal_13_price = global.deal_1_price / 1000;
+        global.deal_14_price = global.deal_1_price / 1000;
+        global.deal_15_price = global.deal_1_price / 1000;
+    }   
+    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "B") {
+        global.users = global.users / 1000;
+        global.auto_users_amount = global.auto_users_amount / 1000;
+        //25:00 in part 1 van oreo clicker
+        global.usercount = "T";
+        
+                
         global.deal_1_price = global.deal_1_price / 1000;
         global.deal_2_price = global.deal_1_price / 1000;
         global.deal_3_price = global.deal_1_price / 1000;
@@ -337,31 +371,42 @@
     }
     
     
-    //Users
-    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "") {
-        global.users = global.users / 1000;
-        global.auto_users_amount = global.auto_users_amount / 1000;
-        //25:00 in part 1 van oreo clicker
-        global.usercount = "K";
+    
+//Room steps
+if(
+    global.deal_1 == true &amp;&amp; 
+    global.deal_2 == true &amp;&amp;
+    global.deal_3 == true &amp;&amp;
+    global.deal_4 == true &amp;&amp;
+    global.deal_5 == true
+    )
+    {
+       global.bronze = true; 
     }
-    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "K") {
-        global.users = global.users / 1000;
-        global.auto_users_amount = global.auto_users_amount / 1000;
-        //25:00 in part 1 van oreo clicker
-        global.usercount = "M";
-    }   
-    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "M") {
-        global.users = global.users / 1000;
-        global.auto_users_amount = global.auto_users_amount / 1000;
-        //25:00 in part 1 van oreo clicker
-        global.usercount = "B";
-    }   
-    if(global.users &gt;= 1000 &amp;&amp; global.usercount == "B") {
-        global.users = global.users / 1000;
-        global.auto_users_amount = global.auto_users_amount / 1000;
-        //25:00 in part 1 van oreo clicker
-        global.usercount = "T";
+if(
+    global.deal_6 == true &amp;&amp; 
+    global.deal_7 == true &amp;&amp;
+    global.deal_8 == true &amp;&amp;
+    global.deal_9 == true &amp;&amp;
+    global.deal_10 == true
+    )
+    {
+       global.silver = true; 
     }
+if(
+    global.deal_11 == true &amp;&amp; 
+    global.deal_12 == true &amp;&amp;
+    global.deal_13 == true &amp;&amp;
+    global.deal_14 == true &amp;&amp;
+    global.deal_15 == true
+    )
+    {
+       global.gold = true; 
+    }
+    
+    
+    
+    
 }
 </string>
           </argument>
