@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>{
 // Global
-    global.money = 500;
+    global.money = 5000;
     global.users = 500;
     global.moneycount = "";
     global.usercount = "";
@@ -127,7 +127,7 @@
     
     //Shop 2 prices
         //Bronze
-        global.deal_1_price         = 20;
+        global.deal_1_price         = 2000;
         global.deal_2_price         = 500;
         global.deal_3_price         = 500;
         global.deal_4_price         = 500;
@@ -149,8 +149,8 @@
 
     //Shop 2 names
         //Bronze
-        global.deal_1_name          = 'Deal 1';
-        global.deal_2_name          = 'Deal 2';
+        global.deal_1_name          = 'Invest in the youth';
+        global.deal_2_name          = 'Golden Showers';
         global.deal_3_name          = 'Deal 3';
         global.deal_4_name          = 'Deal 4';
         global.deal_5_name          = 'Deal 5';
