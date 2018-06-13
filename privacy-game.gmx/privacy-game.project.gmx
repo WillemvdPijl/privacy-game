@@ -21,12 +21,15 @@
       <sprites name="Level 1 Building">
         <sprite>sprites\sprBureau1</sprite>
         <sprite>sprites\sprChairFront1</sprite>
+        <sprite>sprites\sprChairBack1</sprite>
       </sprites>
       <sprites name="Level 2 Building">
         <sprite>sprites\sprBureau2</sprite>
+        <sprite>sprites\sprChairBack2</sprite>
       </sprites>
       <sprites name="Level 3 Building">
         <sprite>sprites\sprBureau3</sprite>
+        <sprite>sprites\sprChairBack3</sprite>
       </sprites>
     </sprites>
   </sprites>
@@ -47,12 +50,15 @@
       <objects name="Level 1 Building">
         <object>objects\objBureau1</object>
         <object>objects\objChairFront1</object>
+        <object>objects\objChairBack1</object>
       </objects>
       <objects name="Level 2 Building">
         <object>objects\objBureau2</object>
+        <object>objects\objChairBack2</object>
       </objects>
       <objects name="Level 3 Building">
         <object>objects\objBureau3</object>
+        <object>objects\object48</object>
       </objects>
     </objects>
     <objects name="Buy/Sell">
