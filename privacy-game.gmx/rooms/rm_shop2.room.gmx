@@ -64,7 +64,7 @@
     <instance objName="obj_deal_4_buy" x="512" y="576" name="inst_7FD65F19" locked="0" code="" scaleX="4.2350001335144" scaleY="1.75510203838348" colour="4294967295" rotation="0"/>
     <instance objName="obj_deal_5_buy" x="512" y="704" name="inst_8617FDF5" locked="0" code="" scaleX="4.2350001335144" scaleY="1.75510203838348" colour="4294967295" rotation="0"/>
     <instance objName="obj_render_employees" x="352" y="96" name="inst_9A34DC5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_play_music" x="288" y="160" name="inst_16815F40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="&lt;undefined&gt;" x="288" y="160" name="inst_16815F40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
