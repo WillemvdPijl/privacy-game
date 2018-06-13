@@ -4,7 +4,10 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\office_ambience</sound>
+    <sound>sound\shop_music</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="Employee">
       <sprite>sprites\sprEmployeeSittingFrontF</sprite>
@@ -124,6 +127,7 @@
       <object>objects\obj_next</object>
       <object>objects\obj_init_employees</object>
       <object>objects\obj_render_employees</object>
+      <object>objects\obj_play_music</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -60,6 +60,7 @@
     <instance objName="objBureau2" x="320" y="256" name="inst_49597B49" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Employee_1" x="359" y="288" name="inst_9B30B86E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_render_employees" x="160" y="544" name="inst_1CF994B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_play_music" x="128" y="192" name="inst_D2C6F44B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

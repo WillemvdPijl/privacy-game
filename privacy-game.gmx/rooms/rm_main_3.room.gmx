@@ -58,6 +58,7 @@
     <instance objName="obj_auto_users" x="128" y="288" name="inst_B01E0AEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_auto_money" x="64" y="224" name="inst_34E4BD08" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_render_employees" x="256" y="384" name="inst_E78F52C7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_play_music" x="64" y="96" name="inst_57EB15E3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
