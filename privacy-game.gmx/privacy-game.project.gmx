@@ -4,8 +4,14 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\office_ambience</sound>
+    <sound>sound\shop_music</sound>
+  </sounds>
   <sprites name="sprites">
+    <sprites name="Employee">
+      <sprite>sprites\sprEmployeeSittingFrontF</sprite>
+    </sprites>
     <sprites name="Shop1 products">
       <sprite>sprites\spr_header</sprite>
       <sprite>sprites\spr_gallery</sprite>
@@ -18,20 +24,13 @@
       <sprites name="Level 1 Building">
         <sprite>sprites\sprBureau1</sprite>
         <sprite>sprites\sprChairFront1</sprite>
-        <sprite>sprites\sprChairBack1</sprite>
       </sprites>
       <sprites name="Level 2 Building">
         <sprite>sprites\sprBureau2</sprite>
-        <sprite>sprites\sprChairBak2</sprite>
       </sprites>
       <sprites name="Level 3 Building">
         <sprite>sprites\sprBureau3</sprite>
-        <sprite>sprites\sprChairBack3</sprite>
       </sprites>
-    </sprites>
-    <sprites name="Employee">
-      <sprite>sprites\sprEmployee1</sprite>
-      <sprite>sprites\sprEmployee2</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -122,6 +121,7 @@
       <object>objects\obj_next</object>
       <object>objects\obj_init_employees</object>
       <object>objects\obj_render_employees</object>
+      <object>objects\obj_play_music</object>
     </objects>
   </objects>
   <rooms name="rooms">
