@@ -8,7 +8,7 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
-    <event eventtype="3" enumb="0">
+    <event eventtype="0" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -25,24 +25,20 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string> 
-if (global.deal_1 == true){
-    
-    object_set_visible( obj_Employee_2, true );
-}/*
-if (global.deal_2 == true){
-    
-    object_set_visible( obj_Employee_3, true );
-}
-if (global.deal_3 == true){
-    
-    object_set_visible( obj_Employee_4, true );
-}
-if (global.deal_4 == true){
-    
-    object_set_visible( obj_Employee_5, true );
-}
-*/
+            <string>
+object_set_visible( obj_Employee_1, true );
+object_set_visible( obj_Employee_2, false );/*
+object_set_visible( obj_Employee_3, false );
+object_set_visible( obj_Employee_4, false );
+object_set_visible( obj_Employee_5, false );
+object_set_visible( obj_Employee_6, false );
+object_set_visible( obj_Employee_7, false );
+object_set_visible( obj_Employee_8, false );
+object_set_visible( obj_Employee_9, false );
+object_set_visible( obj_Employee_10, false );
+object_set_visible( obj_Employee_11, false );
+object_set_visible( obj_Employee_12, false );
+*/ 
 </string>
           </argument>
         </arguments>

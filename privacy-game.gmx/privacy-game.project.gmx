@@ -41,6 +41,7 @@
   <objects name="objects">
     <objects name="Employee">
       <object>objects\obj_Employee_1</object>
+      <object>objects\obj_Employee_2</object>
     </objects>
     <objects name="Buildings">
       <objects name="Level 1 Building">
@@ -115,6 +116,7 @@
       <object>objects\obj_auto_money</object>
       <object>objects\obj_back</object>
       <object>objects\obj_next</object>
+      <object>objects\obj_init_employees</object>
       <object>objects\obj_render_employees</object>
     </objects>
   </objects>
