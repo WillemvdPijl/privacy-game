@@ -7,6 +7,8 @@
   <sounds name="sound">
     <sound>sound\office_ambience</sound>
     <sound>sound\shop_music</sound>
+    <sound>sound\city_ambience</sound>
+    <sound>sound\space_ambience</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Employee">

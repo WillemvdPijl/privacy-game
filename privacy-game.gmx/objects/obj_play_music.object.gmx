@@ -25,15 +25,27 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (room = rm_main || room = rm_main_2 || room = rm_main_3)
+            <string>if (room = rm_main)
+{
+    audio_play_sound(city_ambience, 1, true);
+    audio_stop_sound(shop_music);
+}
+if (room = rm_main_2)
 {
     audio_play_sound(office_ambience, 1, true);
+    audio_stop_sound(shop_music);
+}
+if (room = rm_main_3)
+{
+    audio_play_sound(space_ambience, 1, true);
     audio_stop_sound(shop_music);
 }
 if (room = rm_shop1|| room = rm_shop2)
 {
     audio_play_sound(shop_music, 1, true);
     audio_stop_sound(office_ambience);
+    audio_stop_sound(city_ambience);
+    audio_stop_sound(space_ambience);
 }
 </string>
           </argument>
