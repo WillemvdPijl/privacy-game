@@ -34,6 +34,8 @@
       <sprites name="Level 2 Building">
         <sprite>sprites\sprBureau2</sprite>
         <sprite>sprites\spriChairBack2</sprite>
+        <sprite>sprites\sprCloud1</sprite>
+        <sprite>sprites\sprCloud2</sprite>
       </sprites>
       <sprites name="Level 3 Building">
         <sprite>sprites\sprBureau3</sprite>
@@ -47,6 +49,7 @@
     <background>background\bgr_room1</background>
     <background>background\bgr_shop2_Silver</background>
     <background>background\bgr_shop2_Gold</background>
+    <background>background\bgr_room2</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -64,6 +67,8 @@
       </objects>
       <objects name="Level 2 Building">
         <object>objects\objBureau2</object>
+        <object>objects\obj_Cloud_1</object>
+        <object>objects\obj_loud_2</object>
       </objects>
       <objects name="Level 3 Building">
         <object>objects\objBureau3</object>
