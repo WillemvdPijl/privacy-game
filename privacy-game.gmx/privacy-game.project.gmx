@@ -112,6 +112,7 @@
             <object>objects\obj_deal_3_buy</object>
             <object>objects\obj_deal_4_buy</object>
             <object>objects\obj_deal_5_buy</object>
+            <object>objects\obj_back_shop1</object>
           </objects>
           <objects name="Silver">
             <object>objects\obj_deal_6_buy</object>
@@ -119,6 +120,7 @@
             <object>objects\obj_deal_8_buy</object>
             <object>objects\obj_deal_9_buy</object>
             <object>objects\obj_deal_10_buy</object>
+            <object>objects\obj_back_shop2</object>
           </objects>
           <objects name="Gold">
             <object>objects\obj_deal_11_buy</object>
@@ -126,10 +128,11 @@
             <object>objects\obj_deal_13_buy</object>
             <object>objects\obj_deal_14_buy</object>
             <object>objects\obj_deal_15_buy</object>
+            <object>objects\obj_back_shop3</object>
           </objects>
         </objects>
+        <object>objects\obj_deal_message</object>
       </objects>
-      <object>objects\obj_deal_message</object>
     </objects>
     <objects name="Global">
       <object>objects\obj_globals</object>

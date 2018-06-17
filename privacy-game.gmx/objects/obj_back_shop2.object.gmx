@@ -8,6 +8,29 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="6" enumb="7">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>//none
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="6" enumb="4">
       <action>
         <libid>1</libid>
@@ -26,49 +49,9 @@
           <argument>
             <kind>1</kind>
             <string>{
-    if(global.auto_money = 0){
-        if(global.users &gt;= global.deal_1_price  &amp;&amp; global.deal_1 == false){
-            global.auto_money = 1;
-            global.deal_1 = true;
-            global.auto_money_amount = 50;
-            room_goto(rm_Deal_1);
-        }
-    }else
-    {
-        if(global.users &gt;= global.deal_1_price  &amp;&amp; global.deal_1 == false){
-            global.auto_money_amount *= global.deal_1_multiplier;
-            global.deal_1 = true;
-            room_goto(rm_Deal_1);
-        }
-    }
+    room_goto(rm_shop2_Silver);
 }
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>{
-    //draw_text_transformed(550,190, string(global.deal_1_name) + " - Users/sec: X" + string(global.deal_1_multiplier), 2, 2, 0);
-    draw_text_transformed(470,200, string(global.deal_1_name) + " - $/sec: 1", 2, 2, 0);
-    draw_text_transformed(1050,200, "Users: " + string(global.deal_1_price) + string(global.usercount), 2, 2, 0);
-}
+
 </string>
           </argument>
         </arguments>
