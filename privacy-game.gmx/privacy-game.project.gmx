@@ -14,7 +14,6 @@
     <sprites name="Employee">
       <sprite>sprites\sprEmployee1</sprite>
       <sprite>sprites\sprEmployee2</sprite>
-      <sprite>sprites\sprEmployee3</sprite>
     </sprites>
     <sprites name="Shop1 products">
       <sprite>sprites\spr_header</sprite>
@@ -53,14 +52,12 @@
     <objects name="Employee">
       <object>objects\obj_Employee_1</object>
       <object>objects\obj_Employee_2</object>
-      <object>objects\obj_Employee_3</object>
     </objects>
     <objects name="Buildings">
       <objects name="Level 1 Building">
         <object>objects\objBureau1</object>
         <object>objects\objChairFront1</object>
         <object>objects\obj_garbage</object>
-        <object>objects\objChairBack1_1</object>
       </objects>
       <objects name="Level 2 Building">
         <object>objects\objBureau2</object>

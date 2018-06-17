@@ -68,8 +68,6 @@
     <instance objName="obj_play_music" x="320" y="224" name="inst_9F8AEDF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objChairFront1" x="536" y="460" name="inst_7DA3FB4B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_garbage" x="64" y="608" name="inst_16535363" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Employee_3" x="547" y="525" name="inst_DB14FD40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objChairBack1_1" x="554" y="548" name="inst_3EC6F954" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
