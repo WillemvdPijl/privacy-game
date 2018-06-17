@@ -150,24 +150,24 @@
     //Shop 2 names
         //Bronze
         global.deal_1_name          = 'Invest in the youth';
-        global.deal_2_name          = 'Golden Showers';
-        global.deal_3_name          = 'Deal 3';
-        global.deal_4_name          = 'Deal 4';
-        global.deal_5_name          = 'Deal 5';
+        global.deal_2_name          = 'Does she?';
+        global.deal_3_name          = 'Living on the edge';
+        global.deal_4_name          = "One man's trash";
+        global.deal_5_name          = 'Movie premier';
         
         //Silver
-        global.deal_6_name          = 'Deal 6';
-        global.deal_7_name          = 'Deal 7';
+        global.deal_6_name          = 'Hostile Takeover';
+        global.deal_7_name          = 'Camditch student';
         global.deal_8_name          = 'Deal 8';
         global.deal_9_name          = 'Deal 9';
         global.deal_10_name         = 'Deal 10';
         
         //Gold
-        global.deal_11_name         = 'Deal 11';
-        global.deal_12_name         = 'Deal 12';
-        global.deal_13_name         = 'Deal 13';
-        global.deal_14_name         = 'Deal 14';
-        global.deal_15_name         = 'Deal 15';
+        global.deal_11_name         = 'Pear newest feature';
+        global.deal_12_name         = 'Perfect Match';
+        global.deal_13_name         = 'Cameditch Analytica';
+        global.deal_14_name         = 'LitConeeeeeeeeect!';
+        global.deal_15_name         = 'Privacy is just a word';
     
 }
 </string>
