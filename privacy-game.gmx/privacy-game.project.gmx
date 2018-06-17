@@ -130,7 +130,7 @@
       <object>objects\obj_auto_money</object>
       <object>objects\obj_back</object>
       <object>objects\obj_next</object>
-      <object>objects\obj_init</object>
+      <object>objects\obj_render_init</object>
       <object>objects\obj_render_employees</object>
       <object>objects\obj_play_music</object>
     </objects>
