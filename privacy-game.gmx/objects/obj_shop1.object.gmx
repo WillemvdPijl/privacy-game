@@ -50,6 +50,7 @@
             <kind>1</kind>
             <string>{
     room_goto(rm_shop1);
+    audio_play_sound(shop_music, 1, true);
 }
 </string>
           </argument>

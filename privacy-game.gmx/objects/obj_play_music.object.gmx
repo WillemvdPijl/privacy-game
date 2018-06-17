@@ -42,7 +42,6 @@ if (room = rm_main_3)
 }
 if (room = rm_shop1|| room = rm_shop2)
 {
-    audio_play_sound(shop_music, 1, true);
     audio_stop_sound(office_ambience);
     audio_stop_sound(city_ambience);
     audio_stop_sound(space_ambience);
