@@ -65,6 +65,11 @@
     <instance objName="obj_deal_5_buy" x="512" y="704" name="inst_8617FDF5" locked="0" code="" scaleX="4.2350001335144" scaleY="1.75510203838348" colour="4294967295" rotation="0"/>
     <instance objName="obj_render_employees" x="352" y="96" name="inst_9A34DC5B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_play_music" x="288" y="160" name="inst_16815F40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_bought_1" x="448" y="224" name="inst_0EC7A82A" locked="0" code="" scaleX="3.5" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_bought_2" x="448" y="352" name="inst_07F90DF8" locked="0" code="" scaleX="3.5" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_bought_3" x="448" y="480" name="inst_07B942D9" locked="0" code="" scaleX="3.5" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_bought_4" x="448" y="608" name="inst_57B536AB" locked="0" code="" scaleX="3.5" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_deal_bought_5" x="448" y="736" name="inst_E0424BB5" locked="0" code="" scaleX="3.25" scaleY="3.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

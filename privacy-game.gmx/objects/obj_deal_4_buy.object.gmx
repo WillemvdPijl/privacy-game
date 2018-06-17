@@ -31,14 +31,16 @@
             global.auto_money = 1;
             global.deal_4 = true;
             global.auto_money_amount = global.auto_money_first;
-            global.deal_4_name += ' bought'
+            room_goto(rm_Deal_4);
+            object_set_visible( obj_deal_bought_4, true );
         }
     }else
     {
         if(global.users &gt;= global.deal_4_price  &amp;&amp; global.deal_4 == false){
             global.auto_money_amount *= global.deal_4_multiplier;
             global.deal_4 = true;
-            global.deal_4_name += ' bought'
+            room_goto(rm_Deal_4);
+            object_set_visible( obj_deal_bought_4, true );
         }
     }
 }

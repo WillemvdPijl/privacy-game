@@ -32,6 +32,8 @@
             global.deal_1 = true;
             global.auto_money_amount = 50;
             room_goto(rm_Deal_1);
+            object_set_visible( obj_deal_bought_1, true );
+            
         }
     }else
     {
@@ -39,6 +41,7 @@
             global.auto_money_amount *= global.deal_1_multiplier;
             global.deal_1 = true;
             room_goto(rm_Deal_1);
+            object_set_visible( obj_deal_bought_1, true );
         }
     }
 }

@@ -44,6 +44,7 @@
     </sprites>
     <sprite>sprites\spr_menu_bar</sprite>
     <sprite>sprites\spr_deal_message</sprite>
+    <sprite>sprites\obj_deal_boughtIndicator</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_shop1</background>
@@ -132,6 +133,23 @@
           </objects>
         </objects>
         <object>objects\obj_deal_message</object>
+        <objects name="Bought indicators">
+          <object>objects\obj_deal_bought_1</object>
+          <object>objects\obj_deal_bought_2</object>
+          <object>objects\obj_deal_bought_3</object>
+          <object>objects\obj_deal_bought_4</object>
+          <object>objects\obj_deal_bought_5</object>
+          <object>objects\obj_deal_bought_6</object>
+          <object>objects\obj_deal_bought_7</object>
+          <object>objects\obj_deal_bought_8</object>
+          <object>objects\obj_deal_bought_9</object>
+          <object>objects\obj_deal_bought_10</object>
+          <object>objects\obj_deal_bought_11</object>
+          <object>objects\obj_deal_bought_12</object>
+          <object>objects\obj_deal_bought_13</object>
+          <object>objects\obj_deal_bought_14</object>
+          <object>objects\obj_deal_bought_15</object>
+        </objects>
       </objects>
     </objects>
     <objects name="Global">
