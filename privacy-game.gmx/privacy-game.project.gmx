@@ -43,6 +43,7 @@
       </sprites>
     </sprites>
     <sprite>sprites\spr_menu_bar</sprite>
+    <sprite>sprites\spr_deal_message</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_shop1</background>
@@ -51,6 +52,7 @@
     <background>background\bgr_shop2_Silver</background>
     <background>background\bgr_shop2_Gold</background>
     <background>background\bgr_room2</background>
+    <background>background\bgr_room3</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -127,6 +129,7 @@
           </objects>
         </objects>
       </objects>
+      <object>objects\obj_deal_message</object>
     </objects>
     <objects name="Global">
       <object>objects\obj_globals</object>
@@ -154,6 +157,23 @@
       <room>rooms\rm_shop2</room>
       <room>rooms\rm_shop2_Silver</room>
       <room>rooms\rm_shop2_Gold</room>
+    </rooms>
+    <rooms name="Deals">
+      <room>rooms\rm_Deal_1</room>
+      <room>rooms\rm_Deal_2</room>
+      <room>rooms\rm_Deal_3</room>
+      <room>rooms\rm_Deal_4</room>
+      <room>rooms\rm_Deal_5</room>
+      <room>rooms\rm_Deal_6</room>
+      <room>rooms\rm_Deal_7</room>
+      <room>rooms\rm_Deal_8</room>
+      <room>rooms\rm_Deal_9</room>
+      <room>rooms\rm_Deal_10</room>
+      <room>rooms\rm_Deal_11</room>
+      <room>rooms\rm_Deal_12</room>
+      <room>rooms\rm_Deal_13</room>
+      <room>rooms\rm_Deal_14</room>
+      <room>rooms\rm_Deal_15</room>
     </rooms>
   </rooms>
   <help>
