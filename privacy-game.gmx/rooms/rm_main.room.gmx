@@ -71,6 +71,8 @@
     <instance objName="obj_Employee_3" x="527" y="687" name="inst_DB14FD40" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objChairBack1_1" x="534" y="710" name="inst_3EC6F954" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu_bar" x="640" y="426" name="inst_CF219D5A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_4" x="599" y="651" name="inst_E5C422CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objChairBack1_1" x="607" y="674" name="inst_773B2064" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
