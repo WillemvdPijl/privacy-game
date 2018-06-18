@@ -70,6 +70,7 @@
     <instance objName="obj_Employee_3" x="381" y="477" name="inst_2A24F677" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSpaceShip" x="640" y="424" name="inst_E4C902CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Employee_4" x="453" y="440" name="inst_48E60300" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_6" x="278" y="552" name="inst_1D90E7F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
