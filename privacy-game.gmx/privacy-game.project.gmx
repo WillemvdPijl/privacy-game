@@ -43,6 +43,7 @@
       <sprites name="Level 3 Building">
         <sprite>sprites\sprBureau3</sprite>
         <sprite>sprites\sprChairBack3</sprite>
+        <sprite>sprites\spr_spaceship</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_menu_bar</sprite>
@@ -84,6 +85,7 @@
       </objects>
       <objects name="Level 3 Building">
         <object>objects\objBureau3</object>
+        <object>objects\objSpaceShip</object>
       </objects>
     </objects>
     <objects name="Buy/Sell">
