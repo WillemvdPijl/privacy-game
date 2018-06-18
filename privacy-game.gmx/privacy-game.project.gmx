@@ -9,6 +9,7 @@
     <sound>sound\shop_music</sound>
     <sound>sound\city_ambience</sound>
     <sound>sound\space_ambience</sound>
+    <sound>sound\newspaper_sound</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Employee">
@@ -45,6 +46,9 @@
     <sprite>sprites\spr_menu_bar</sprite>
     <sprite>sprites\spr_deal_message</sprite>
     <sprite>sprites\obj_deal_boughtIndicator</sprite>
+    <sprite>sprites\spr_news_1</sprite>
+    <sprite>sprites\spr_news_2</sprite>
+    <sprite>sprites\spr_news_3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_shop1</background>
@@ -153,6 +157,14 @@
         <objects name="Deal messages">
           <object>objects\obj_Deal_message_1</object>
         </objects>
+        <objects name="Newspaper">
+          <object>objects\obj_news_paper_sound_1</object>
+          <object>objects\obj_news_paper_sound_2</object>
+          <object>objects\obj_news_paper_sound_3</object>
+          <object>objects\obj_newspaper_1</object>
+          <object>objects\obj_newspaper_2</object>
+          <object>objects\obj_newspaper_3</object>
+        </objects>
       </objects>
     </objects>
     <objects name="Global">
@@ -198,6 +210,11 @@
       <room>rooms\rm_Deal_13</room>
       <room>rooms\rm_Deal_14</room>
       <room>rooms\rm_Deal_15</room>
+    </rooms>
+    <rooms name="Newspapers">
+      <room>rooms\rm_newspaper_1</room>
+      <room>rooms\rm_newspaper_2</room>
+      <room>rooms\rm_newspaper_3</room>
     </rooms>
   </rooms>
   <help>
