@@ -17,6 +17,7 @@
       <sprite>sprites\sprEmployee2</sprite>
       <sprite>sprites\sprEmployee3</sprite>
       <sprite>sprites\sprEmployee12</sprite>
+      <sprite>sprites\sprEmployee5</sprite>
     </sprites>
     <sprites name="Shop1 products">
       <sprite>sprites\spr_header</sprite>
@@ -66,6 +67,7 @@
       <object>objects\obj_Employee_1</object>
       <object>objects\obj_Employee_2</object>
       <object>objects\obj_Employee_12</object>
+      <object>objects\obj_Employee_5</object>
       <object>objects\obj_Employee_3</object>
     </objects>
     <objects name="Buildings">

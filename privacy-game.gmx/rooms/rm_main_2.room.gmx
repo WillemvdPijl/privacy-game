@@ -67,6 +67,8 @@
     <instance objName="obj_loud_2" x="1152" y="384" name="inst_4308A156" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu_bar" x="640" y="426" name="inst_5B8D3E5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_menu_bar" x="992" y="-96" name="inst_103F6C14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_5" x="502" y="683" name="inst_D2930B31" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_3" x="443" y="666" name="inst_A94C1D33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
