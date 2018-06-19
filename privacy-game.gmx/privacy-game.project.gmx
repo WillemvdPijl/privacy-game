@@ -10,6 +10,7 @@
     <sound>sound\city_ambience</sound>
     <sound>sound\space_ambience</sound>
     <sound>sound\newspaper_sound</sound>
+    <sound>sound\sirens</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="Employee">
@@ -144,6 +145,8 @@
             <object>objects\obj_deal_14_buy</object>
             <object>objects\obj_deal_15_buy</object>
             <object>objects\obj_back_shop3</object>
+            <object>objects\obj_room_outro</object>
+            <object>objects\obj_game_end</object>
           </objects>
         </objects>
         <object>objects\obj_deal_message</object>
@@ -240,6 +243,7 @@
       <room>rooms\rm_newspaper_2</room>
       <room>rooms\rm_newspaper_3</room>
     </rooms>
+    <room>rooms\rm_outro</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
