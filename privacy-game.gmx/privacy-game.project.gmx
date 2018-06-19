@@ -64,6 +64,8 @@
     <background>background\bgr_shop2_Gold</background>
     <background>background\bgr_room2</background>
     <background>background\bgr_room3</background>
+    <background>background\bgr_how_to</background>
+    <background>background\bgr_how_to_2</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -212,6 +214,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_intro</room>
+    <room>rooms\rm_howto_1</room>
     <rooms name="Main">
       <room>rooms\rm_main</room>
       <room>rooms\rm_main_2</room>
@@ -245,7 +248,7 @@
       <room>rooms\rm_newspaper_2</room>
       <room>rooms\rm_newspaper_3</room>
     </rooms>
-    <room>rooms\rm_howto_1</room>
+    <room>rooms\rm_howto_2</room>
     <room>rooms\rm_outro</room>
   </rooms>
   <help>
