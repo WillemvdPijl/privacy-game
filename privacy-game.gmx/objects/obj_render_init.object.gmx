@@ -29,17 +29,17 @@
 object_set_visible( obj_Employee_1, false );
 object_set_visible( obj_Employee_2, false );
 object_set_visible( obj_Employee_3, false );
-object_set_visible(objChairBack1_1, false);/*
+object_set_visible(objChairBack1_1, false);
 object_set_visible( obj_Employee_4, false );
 object_set_visible( obj_Employee_5, false );
-object_set_visible( obj_Employee_6, false );
+object_set_visible( obj_Employee_6, false );/*
 object_set_visible( obj_Employee_7, false );
 object_set_visible( obj_Employee_8, false );
 object_set_visible( obj_Employee_9, false );
 object_set_visible( obj_Employee_10, false );
-object_set_visible( obj_Employee_11, false );
+object_set_visible( obj_Employee_11, false );*/
 object_set_visible( obj_Employee_12, false );
-*/ 
+
 
 object_set_visible( obj_deal_bought_1, false );
 object_set_visible( obj_deal_bought_2, false );

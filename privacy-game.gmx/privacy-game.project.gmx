@@ -69,11 +69,11 @@
     <objects name="Employee">
       <object>objects\obj_Employee_1</object>
       <object>objects\obj_Employee_2</object>
-      <object>objects\obj_Employee_12</object>
-      <object>objects\obj_Employee_5</object>
-      <object>objects\obj_Employee_6</object>
       <object>objects\obj_Employee_3</object>
       <object>objects\obj_Employee_4</object>
+      <object>objects\obj_Employee_5</object>
+      <object>objects\obj_Employee_6</object>
+      <object>objects\obj_Employee_12</object>
     </objects>
     <objects name="Buildings">
       <objects name="Level 1 Building">

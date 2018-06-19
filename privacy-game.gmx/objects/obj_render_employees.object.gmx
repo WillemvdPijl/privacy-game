@@ -31,22 +31,31 @@
 } 
 if (global.deal_2 == true){
     
-    object_set_visible( obj_Employee_2, true );
+    object_set_visible( obj_Employee_3, true );
+    object_set_visible(objChairBack1_1, true);
 }
 if (global.deal_3 == true){
     
-    object_set_visible( obj_Employee_3, true );
-    object_set_visible(objChairBack1_1, true);
-}/*
-if (global.deal_3 == true){
+    object_set_visible( obj_Employee_2, true );
     
-    object_set_visible( obj_Employee_4, true );
 }
 if (global.deal_4 == true){
     
+    object_set_visible( obj_Employee_4, true );
+}
+if (global.deal_6 == true){
+    
     object_set_visible( obj_Employee_5, true );
 }
-*/
+if (global.deal_7 == true){
+    
+    object_set_visible( obj_Employee_6, true );
+}
+if (global.deal_14 == true){
+    
+    object_set_visible( obj_Employee_12, true );
+}
+
 </string>
           </argument>
         </arguments>
