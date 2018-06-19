@@ -76,6 +76,11 @@
       <object>objects\obj_Employee_4</object>
       <object>objects\obj_Employee_5</object>
       <object>objects\obj_Employee_6</object>
+      <object>objects\obj_Employee_7</object>
+      <object>objects\obj_Employee_8</object>
+      <object>objects\obj_Employee_9</object>
+      <object>objects\obj_Employee_10</object>
+      <object>objects\obj_Employee_11</object>
       <object>objects\obj_Employee_12</object>
     </objects>
     <objects name="Buildings">

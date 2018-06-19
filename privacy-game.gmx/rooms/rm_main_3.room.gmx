@@ -72,6 +72,11 @@
     <instance objName="obj_Employee_4" x="453" y="440" name="inst_48E60300" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Employee_6" x="278" y="552" name="inst_1D90E7F2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_howto_button" x="0" y="0" name="inst_B13DC46C" locked="0" code="" scaleX="0.738693475723267" scaleY="2.83999991416931" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_9" x="544" y="576" name="inst_8CA4A723" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_7" x="288" y="640" name="inst_E778EEDC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_8" x="357" y="604" name="inst_FA11EB75" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_10" x="480" y="544" name="inst_44B8946C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_Employee_11" x="608" y="544" name="inst_AB1500AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

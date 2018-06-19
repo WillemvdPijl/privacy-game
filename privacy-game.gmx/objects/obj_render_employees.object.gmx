@@ -29,27 +29,59 @@
     
     object_set_visible( obj_Employee_1, true );
 } 
+
+
 if (global.deal_2 == true){
     
     object_set_visible( obj_Employee_3, true );
     object_set_visible(objChairBack1_1, true);
 }
+
+
 if (global.deal_3 == true){
     
     object_set_visible( obj_Employee_2, true );
     
 }
+
+
 if (global.deal_4 == true){
     
     object_set_visible( obj_Employee_4, true );
 }
+
+
 if (global.deal_6 == true){
     
     object_set_visible( obj_Employee_5, true );
 }
+
+
 if (global.deal_7 == true){
     
     object_set_visible( obj_Employee_6, true );
+}
+
+
+if (global.deal_8 == true){
+    
+    object_set_visible( obj_Employee_7, true );
+}
+if (global.deal_9 == true){
+    
+    object_set_visible( obj_Employee_8, true );
+}
+if (global.deal_11 == true){
+    
+    object_set_visible( obj_Employee_9, true );
+}
+if (global.deal_12 == true){
+    
+    object_set_visible( obj_Employee_10, true );
+}
+if (global.deal_13 == true){
+    
+    object_set_visible( obj_Employee_11, true );
 }
 if (global.deal_14 == true){
     
