@@ -53,7 +53,6 @@
   <instances>
     <instance objName="obj_deal_message" x="0" y="0" name="inst_FEA9FAC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_back_shop3" x="416" y="736" name="inst_7F1E1701" locked="0" code="" scaleX="2.79999995231628" scaleY="2.40816330909729" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Deal_message_11" x="-96" y="384" name="inst_83110407" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
