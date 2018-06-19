@@ -49,33 +49,26 @@
           <argument>
             <kind>1</kind>
             <string>{
-    room_goto(rm_shop1);
-    audio_play_sound(shop_music, 1, true);
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>{
-    draw_text_transformed(165,25, "Buy Features ", 2, 2, 0);
+        if(
+    global.silver == true &amp;&amp; global.bronze == true 
+    )
+    {
+    room_goto(rm_main_3);
+    }
+    
+    if(
+    global.silver == false &amp;&amp; global.bronze == true
+    )
+    {
+    room_goto(rm_main_2);
+    }
+    
+    if(
+    global.silver == false &amp;&amp; global.bronze == false
+    )
+    {
+    room_goto(rm_main);
+    }
 }
 </string>
           </argument>

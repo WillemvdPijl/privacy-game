@@ -202,10 +202,12 @@
       <object>objects\obj_auto_money</object>
       <object>objects\obj_back</object>
       <object>objects\obj_next</object>
+      <object>objects\obj_back_howto</object>
       <object>objects\obj_render_init</object>
       <object>objects\obj_render_employees</object>
       <object>objects\obj_play_music</object>
       <object>objects\obj_menu_bar</object>
+      <object>objects\obj_howto_button</object>
     </objects>
   </objects>
   <rooms name="rooms">
@@ -243,6 +245,7 @@
       <room>rooms\rm_newspaper_2</room>
       <room>rooms\rm_newspaper_3</room>
     </rooms>
+    <room>rooms\rm_howto_1</room>
     <room>rooms\rm_outro</room>
   </rooms>
   <help>
