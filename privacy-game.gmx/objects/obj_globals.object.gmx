@@ -158,16 +158,16 @@
         //Silver
         global.deal_6_name          = 'Hostile Takeover';
         global.deal_7_name          = 'Camditch student';
-        global.deal_8_name          = 'Deal 8';
-        global.deal_9_name          = 'Deal 9';
-        global.deal_10_name         = 'Deal 10';
+        global.deal_8_name          = 'Whatsup';
+        global.deal_9_name          = 'LitConeeeeeeeeect!';
+        global.deal_10_name         = 'Fake news';
         
         //Gold
-        global.deal_11_name         = 'Pear newest feature';
+        global.deal_11_name         = 'Pear';
         global.deal_12_name         = 'Perfect Match';
         global.deal_13_name         = 'Cameditch Analytica';
-        global.deal_14_name         = 'LitConeeeeeeeeect!';
-        global.deal_15_name         = 'Privacy is just a word';
+        global.deal_14_name         = 'Do not recall';
+        global.deal_15_name         = 'Privacy, just a word';
     
 }
 </string>

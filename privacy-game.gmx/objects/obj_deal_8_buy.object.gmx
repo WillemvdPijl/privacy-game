@@ -68,7 +68,7 @@
             <kind>1</kind>
             <string>{
     draw_text_transformed(470,450, string(global.deal_8_name) + " - $/sec: X" + string(global.deal_8_multiplier), 2, 2, 0);
-    draw_text_transformed(1050,450, "Price: " + string(global.deal_8_price) + string(global.usercount), 2, 2, 0);
+    draw_text_transformed(1050,450, "Users: " + string(global.deal_8_price) + string(global.usercount), 2, 2, 0);
 }
 </string>
           </argument>
