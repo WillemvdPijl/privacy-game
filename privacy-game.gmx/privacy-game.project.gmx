@@ -166,6 +166,20 @@
         </objects>
         <objects name="Deal messages">
           <object>objects\obj_Deal_message_1</object>
+          <object>objects\obj_Deal_message_2</object>
+          <object>objects\obj_Deal_message_3</object>
+          <object>objects\obj_Deal_message_4</object>
+          <object>objects\obj_Deal_message_5</object>
+          <object>objects\obj_Deal_message_6</object>
+          <object>objects\obj_Deal_message_7</object>
+          <object>objects\obj_Deal_message_8</object>
+          <object>objects\obj_Deal_message_9</object>
+          <object>objects\obj_Deal_message_10</object>
+          <object>objects\obj_Deal_message_11</object>
+          <object>objects\obj_Deal_message_12</object>
+          <object>objects\obj_Deal_message_13</object>
+          <object>objects\obj_Deal_message_14</object>
+          <object>objects\obj_Deal_message_15</object>
         </objects>
         <objects name="Newspaper">
           <object>objects\obj_news_paper_sound_1</object>
