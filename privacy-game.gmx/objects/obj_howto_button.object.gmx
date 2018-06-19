@@ -49,7 +49,7 @@
           <argument>
             <kind>1</kind>
             <string>{
-    room_goto(rm_howto_1);
+    room_goto(rm_howto_2);
 }
 </string>
           </argument>
