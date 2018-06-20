@@ -21,6 +21,12 @@
       <sprite>sprites\sprEmployee5</sprite>
       <sprite>sprites\sprEmployee4</sprite>
       <sprite>sprites\sprEmployee6</sprite>
+      <sprite>sprites\sprEmployee7</sprite>
+      <sprite>sprites\sprEmployee8</sprite>
+      <sprite>sprites\sprEmployee9</sprite>
+      <sprite>sprites\sprEmployee11</sprite>
+      <sprite>sprites\sprEmployee10</sprite>
+      <sprite>sprites\sprBosss</sprite>
     </sprites>
     <sprites name="Shop1 products">
       <sprite>sprites\spr_header</sprite>
@@ -36,17 +42,21 @@
         <sprite>sprites\sprChairFront1</sprite>
         <sprite>sprites\sprChairBack1</sprite>
         <sprite>sprites\garbage</sprite>
+        <sprite>sprites\sprBoss</sprite>
+        <sprite>sprites\sprChair1</sprite>
       </sprites>
       <sprites name="Level 2 Building">
         <sprite>sprites\sprBureau2</sprite>
         <sprite>sprites\spriChairBack2</sprite>
         <sprite>sprites\sprCloud1</sprite>
         <sprite>sprites\sprCloud2</sprite>
+        <sprite>sprites\sprite32</sprite>
       </sprites>
       <sprites name="Level 3 Building">
         <sprite>sprites\sprBureau3</sprite>
         <sprite>sprites\sprChairBack3</sprite>
         <sprite>sprites\spr_spaceship</sprite>
+        <sprite>sprites\sprBBoss</sprite>
       </sprites>
     </sprites>
     <sprite>sprites\spr_menu_bar</sprite>
@@ -75,6 +85,7 @@
   <objects name="objects">
     <objects name="Employee">
       <object>objects\obj_Employee_1</object>
+      <object>objects\obj_boss</object>
       <object>objects\obj_Employee_2</object>
       <object>objects\obj_Employee_3</object>
       <object>objects\obj_Employee_4</object>
@@ -86,6 +97,7 @@
       <object>objects\obj_Employee_10</object>
       <object>objects\obj_Employee_11</object>
       <object>objects\obj_Employee_12</object>
+      <object>objects\objBOSSSFRONT</object>
     </objects>
     <objects name="Buildings">
       <objects name="Level 1 Building">
@@ -93,15 +105,19 @@
         <object>objects\objChairFront1</object>
         <object>objects\obj_garbage</object>
         <object>objects\objChairBack1_1</object>
+        <object>objects\obje_boss_1</object>
+        <object>objects\obj_Chair_boss</object>
       </objects>
       <objects name="Level 2 Building">
         <object>objects\objBureau2</object>
         <object>objects\obj_Cloud_1</object>
         <object>objects\obj_loud_2</object>
+        <object>objects\objBureauBoss2</object>
       </objects>
       <objects name="Level 3 Building">
         <object>objects\objBureau3</object>
         <object>objects\objSpaceShip</object>
+        <object>objects\obj_bureauboss3</object>
       </objects>
     </objects>
     <objects name="Buy/Sell">
