@@ -30,7 +30,7 @@
         if(global.users &gt;= global.deal_1_price  &amp;&amp; global.deal_1 == false){
             global.auto_money = 1;
             global.deal_1 = true;
-            global.auto_money_amount = 50;
+            global.auto_money_amount = 20;
             room_goto(rm_Deal_1);
             object_set_visible( obj_deal_bought_1, true );
             
