@@ -28,7 +28,7 @@
             <string>{
 // Global
     global.money = 500;
-    global.users = 0;
+    global.users = 500000000;
     global.moneycount = "";
     global.usercount = "";
     
