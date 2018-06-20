@@ -96,9 +96,9 @@
         //Gold
         global.deal_11_multiplier   = 2.1;
         global.deal_12_multiplier   = 2.2;
-        global.deal_13_multiplier   = 2.3;
-        global.deal_14_multiplier   = 2.4;
-        global.deal_15_multiplier   = 2.5;
+        global.deal_13_multiplier   = 3;
+        global.deal_14_multiplier   = 5;
+        global.deal_15_multiplier   = 10;
     
     //Shop 2 deals
         //Bronze
@@ -126,23 +126,11 @@
         //Bronze
         global.deal_1_price         = 40;
         global.deal_2_price         = 150;
-        global.deal_3_price         = 500;
-        global.deal_4_price         = 1000;
-        global.deal_5_price         = 5000;
+        global.deal_3_price         = 300;
         
         //Silver
-        global.deal_6_price         = 10000;
-        global.deal_7_price         = 30000;
-        global.deal_8_price         = 80000;
-        global.deal_9_price         = 120000;
-        global.deal_10_price        = 300000;
         
         //Gold
-        global.deal_11_price        = 600000;
-        global.deal_12_price        = 800000;
-        global.deal_13_price        = 1200000;
-        global.deal_14_price        = 2000000;
-        global.deal_15_price        = 5000000;
 
     //Shop 2 names
         //Bronze
@@ -282,20 +270,20 @@
         
                 
         global.deal_1_price = global.deal_1_price / 1000;
-        global.deal_2_price = global.deal_1_price / 1000;
-        global.deal_3_price = global.deal_1_price / 1000;
-        global.deal_4_price = global.deal_1_price / 1000;
-        global.deal_5_price = global.deal_1_price / 1000;
-        global.deal_6_price = global.deal_1_price / 1000;
-        global.deal_7_price = global.deal_1_price / 1000;
-        global.deal_8_price = global.deal_1_price / 1000;
-        global.deal_9_price = global.deal_1_price / 1000;
-        global.deal_10_price = global.deal_1_price / 1000;
-        global.deal_11_price = global.deal_1_price / 1000;
-        global.deal_12_price = global.deal_1_price / 1000;
-        global.deal_13_price = global.deal_1_price / 1000;
-        global.deal_14_price = global.deal_1_price / 1000;
-        global.deal_15_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_2_price / 1000;
+        global.deal_3_price = global.deal_3_price / 1000;
+        global.deal_4_price = global.deal_4_price / 1000;
+        global.deal_5_price = global.deal_5_price / 1000;
+        global.deal_6_price = global.deal_6_price / 1000;
+        global.deal_7_price = global.deal_7_price / 1000;
+        global.deal_8_price = global.deal_8_price / 1000;
+        global.deal_9_price = global.deal_9_price / 1000;
+        global.deal_10_price = global.deal_10_price / 1000;
+        global.deal_11_price = global.deal_11_price / 1000;
+        global.deal_12_price = global.deal_12_price / 1000;
+        global.deal_13_price = global.deal_13_price / 1000;
+        global.deal_14_price = global.deal_14_price / 1000;
+        global.deal_15_price = global.deal_15_price / 1000;
     }
     if(global.users &gt;= 1000 &amp;&amp; global.usercount == "K") {
         global.users = global.users / 1000;
@@ -305,20 +293,20 @@
         
                 
         global.deal_1_price = global.deal_1_price / 1000;
-        global.deal_2_price = global.deal_1_price / 1000;
-        global.deal_3_price = global.deal_1_price / 1000;
-        global.deal_4_price = global.deal_1_price / 1000;
-        global.deal_5_price = global.deal_1_price / 1000;
-        global.deal_6_price = global.deal_1_price / 1000;
-        global.deal_7_price = global.deal_1_price / 1000;
-        global.deal_8_price = global.deal_1_price / 1000;
-        global.deal_9_price = global.deal_1_price / 1000;
-        global.deal_10_price = global.deal_1_price / 1000;
-        global.deal_11_price = global.deal_1_price / 1000;
-        global.deal_12_price = global.deal_1_price / 1000;
-        global.deal_13_price = global.deal_1_price / 1000;
-        global.deal_14_price = global.deal_1_price / 1000;
-        global.deal_15_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_2_price / 1000;
+        global.deal_3_price = global.deal_3_price / 1000;
+        global.deal_4_price = global.deal_4_price / 1000;
+        global.deal_5_price = global.deal_5_price / 1000;
+        global.deal_6_price = global.deal_6_price / 1000;
+        global.deal_7_price = global.deal_7_price / 1000;
+        global.deal_8_price = global.deal_8_price / 1000;
+        global.deal_9_price = global.deal_9_price / 1000;
+        global.deal_10_price = global.deal_10_price / 1000;
+        global.deal_11_price = global.deal_11_price / 1000;
+        global.deal_12_price = global.deal_12_price / 1000;
+        global.deal_13_price = global.deal_13_price / 1000;
+        global.deal_14_price = global.deal_14_price / 1000;
+        global.deal_15_price = global.deal_15_price / 1000;
     }   
     if(global.users &gt;= 1000 &amp;&amp; global.usercount == "M") {
         global.users = global.users / 1000;
@@ -328,20 +316,20 @@
         
                 
         global.deal_1_price = global.deal_1_price / 1000;
-        global.deal_2_price = global.deal_1_price / 1000;
-        global.deal_3_price = global.deal_1_price / 1000;
-        global.deal_4_price = global.deal_1_price / 1000;
-        global.deal_5_price = global.deal_1_price / 1000;
-        global.deal_6_price = global.deal_1_price / 1000;
-        global.deal_7_price = global.deal_1_price / 1000;
-        global.deal_8_price = global.deal_1_price / 1000;
-        global.deal_9_price = global.deal_1_price / 1000;
-        global.deal_10_price = global.deal_1_price / 1000;
-        global.deal_11_price = global.deal_1_price / 1000;
-        global.deal_12_price = global.deal_1_price / 1000;
-        global.deal_13_price = global.deal_1_price / 1000;
-        global.deal_14_price = global.deal_1_price / 1000;
-        global.deal_15_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_2_price / 1000;
+        global.deal_3_price = global.deal_3_price / 1000;
+        global.deal_4_price = global.deal_4_price / 1000;
+        global.deal_5_price = global.deal_5_price / 1000;
+        global.deal_6_price = global.deal_6_price / 1000;
+        global.deal_7_price = global.deal_7_price / 1000;
+        global.deal_8_price = global.deal_8_price / 1000;
+        global.deal_9_price = global.deal_9_price / 1000;
+        global.deal_10_price = global.deal_10_price / 1000;
+        global.deal_11_price = global.deal_11_price / 1000;
+        global.deal_12_price = global.deal_12_price / 1000;
+        global.deal_13_price = global.deal_13_price / 1000;
+        global.deal_14_price = global.deal_14_price / 1000;
+        global.deal_15_price = global.deal_15_price / 1000;
     }   
     if(global.users &gt;= 1000 &amp;&amp; global.usercount == "B") {
         global.users = global.users / 1000;
@@ -351,20 +339,20 @@
         
                 
         global.deal_1_price = global.deal_1_price / 1000;
-        global.deal_2_price = global.deal_1_price / 1000;
-        global.deal_3_price = global.deal_1_price / 1000;
-        global.deal_4_price = global.deal_1_price / 1000;
-        global.deal_5_price = global.deal_1_price / 1000;
-        global.deal_6_price = global.deal_1_price / 1000;
-        global.deal_7_price = global.deal_1_price / 1000;
-        global.deal_8_price = global.deal_1_price / 1000;
-        global.deal_9_price = global.deal_1_price / 1000;
-        global.deal_10_price = global.deal_1_price / 1000;
-        global.deal_11_price = global.deal_1_price / 1000;
-        global.deal_12_price = global.deal_1_price / 1000;
-        global.deal_13_price = global.deal_1_price / 1000;
-        global.deal_14_price = global.deal_1_price / 1000;
-        global.deal_15_price = global.deal_1_price / 1000;
+        global.deal_2_price = global.deal_2_price / 1000;
+        global.deal_3_price = global.deal_3_price / 1000;
+        global.deal_4_price = global.deal_4_price / 1000;
+        global.deal_5_price = global.deal_5_price / 1000;
+        global.deal_6_price = global.deal_6_price / 1000;
+        global.deal_7_price = global.deal_7_price / 1000;
+        global.deal_8_price = global.deal_8_price / 1000;
+        global.deal_9_price = global.deal_9_price / 1000;
+        global.deal_10_price = global.deal_10_price / 1000;
+        global.deal_11_price = global.deal_11_price / 1000;
+        global.deal_12_price = global.deal_12_price / 1000;
+        global.deal_13_price = global.deal_13_price / 1000;
+        global.deal_14_price = global.deal_14_price / 1000;
+        global.deal_15_price = global.deal_15_price / 1000;
     }
     
     
