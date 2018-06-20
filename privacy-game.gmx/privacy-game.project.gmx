@@ -68,6 +68,7 @@
     <background>background\bgr_how_to_2</background>
     <background>background\bgr_intro</background>
     <background>background\bg_outro</background>
+    <background>background\bg_game_end</background>
   </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
@@ -211,6 +212,7 @@
       <object>objects\obj_auto_money</object>
       <object>objects\obj_back</object>
       <object>objects\obj_next</object>
+      <object>objects\obj_next_outro</object>
       <object>objects\obj_back_howto</object>
       <object>objects\obj_render_init</object>
       <object>objects\obj_render_employees</object>
@@ -258,6 +260,7 @@
     </rooms>
     <room>rooms\rm_howto_2</room>
     <room>rooms\rm_outro</room>
+    <room>rooms\rm_game_end</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
