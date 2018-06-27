@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Employee sitting
 image_speed = .2;
+depth = -y;
 </string>
           </argument>
         </arguments>
