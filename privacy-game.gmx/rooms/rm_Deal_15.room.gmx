@@ -54,6 +54,8 @@
     <instance objName="obj_deal_message" x="0" y="0" name="inst_FEA9FAC5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_Deal_message_15" x="-64" y="288" name="inst_D41F2AA9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room_outro" x="416" y="768" name="inst_99630816" locked="0" code="" scaleX="2.82914566993713" scaleY="2.83999991416931" colour="4294967295" rotation="0"/>
+    <instance objName="obj_url" x="992" y="544" name="inst_3C1BB47B" locked="0" code="" scaleX="0.225882351398468" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_open_url" x="1024" y="576" name="inst_FEA9A257" locked="0" code="" scaleX="1.0603015422821" scaleY="2.20000004768372" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

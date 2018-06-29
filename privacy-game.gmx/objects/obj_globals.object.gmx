@@ -125,16 +125,16 @@
     //Shop 2 prices
         //Bronze
         global.deal_1_price         = 40;
-        global.deal_2_price         = 150;
-        global.deal_3_price         = 300;
-        global.deal_4_price         = 500;
-        global.deal_5_price         = 800;
+        global.deal_2_price         = 120;
+        global.deal_3_price         = 200;
+        global.deal_4_price         = 270;
+        global.deal_5_price         = 350;
         
         //Silver
-        global.deal_6_price         = 1000;
-        global.deal_7_price         = 1400;
-        global.deal_8_price         = 1800;
-        global.deal_9_price         = 2100;
+        global.deal_6_price         = 500;
+        global.deal_7_price         = 700;
+        global.deal_8_price         = 1000;
+        global.deal_9_price         = 1500;
         global.deal_10_price        = 2500;
         
         //Gold

@@ -65,6 +65,7 @@
     <sprite>sprites\spr_news_1</sprite>
     <sprite>sprites\spr_news_2</sprite>
     <sprite>sprites\spr_news_3</sprite>
+    <sprite>sprites\spr_url</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgr_shop1</background>
@@ -229,6 +230,7 @@
       <object>objects\obj_auto_money</object>
       <object>objects\obj_back</object>
       <object>objects\obj_next</object>
+      <object>objects\obj_open_url</object>
       <object>objects\obj_next_outro</object>
       <object>objects\obj_back_howto</object>
       <object>objects\obj_render_init</object>
@@ -236,6 +238,7 @@
       <object>objects\obj_play_music</object>
       <object>objects\obj_menu_bar</object>
       <object>objects\obj_howto_button</object>
+      <object>objects\obj_url</object>
     </objects>
   </objects>
   <rooms name="rooms">
